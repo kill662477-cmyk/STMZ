@@ -1,0 +1,78 @@
+{
+  "defaultModel": "GPT Image 1.5",
+  "note": "공용 카드 일러스트 프롬프트. GAME_DESIGN §9: 공용 카드는 캐릭터별로 만들지 않고 cardId마다 1장만 제작해 해당 카드를 쓰는 모든 캐릭터가 공유한다. 강화본(id+)은 기본 카드 아트를 재사용한다. 캐릭터 식별 아트는 별도 cardId의 시그니처 카드만 예외. strike가 승인 앵커(화풍 기준). 후보=assets/review/cards/, 승인분만 assets/game/cards/{cardId}.png 승격. 현재 덱은 T(지두두) 풀이라 산업·기계 톤으로 통일.",
+  "negativePrompt": "identifiable named character, celebrity likeness, character portrait, visible face, glossy 3D render, smooth mobile-game render, baseball jersey, card frame, border, UI, text, numbers, logo, watermark, color fringe, extra limbs",
+  "globalStyle": "Original shared ability-card illustration for SLAY THE MONSTARZ, a turn-based dark-fantasy roguelike deckbuilder. Hand-painted 2D artwork with bold readable shapes, thick dark contours, gritty brush texture, a muted dark palette, and one strong saturated accent. The action and gameplay meaning must remain readable at small card size. Absolutely not glossy 3D and not a smooth mobile-game render.",
+  "globalConstraints": "Common-card art must depict the ability motif rather than a player character: weapons, impact, energy, machinery, anonymous armored hands, or a non-identifiable silhouette are allowed. Do not show a recognizable face, hairstyle, named character, jersey number, or personal emblem. Use a roughly SQUARE 1:1 composition with the motif strongly centered and generous safe margins on ALL four sides (top, bottom, left, right), because the in-game card-art window is near-square (~120x108) and center-crops to fill — keep the key action well away from every edge. No card frame, border, vignette, UI, text, numbers, logo, or watermark; the game composites those in code. Fill the whole square edge-to-edge with the scene (no letterboxing).",
+  "outputNote": "각 1장, 세로 구도, 저장 assets/review/cards/{cardId}-v1.png. 승인 후 assets/game/cards/{cardId}.png 승격. 강화본 id+는 별도 생성 안 함(기본 아트 재사용).",
+  "assets": [
+    {
+      "id": "strike", "file": "strike.png", "kind": "card", "cardName": "타격", "scope": "shared", "race": "T", "type": "attack", "motif": "industrial kinetic impact",
+      "prompt": "Shared common-card art for STRIKE (basic attack). A close-up of a chunky rusted industrial firearm and anonymous armored hands discharging one decisive shot; hot muzzle flash and a heavy diagonal kinetic impact tear through smoky darkness. Emphasize force, recoil, riveted metal, sparks, clear attack silhouette. No face, no recognizable character. Muted iron and charcoal with one hot orange accent. Square centered composition, generous safe margins on all sides."
+    },
+    {
+      "id": "guard", "file": "guard.png", "kind": "card", "cardName": "방어", "scope": "shared", "race": "T", "type": "skill", "motif": "armor brace / block",
+      "prompt": "Shared common-card art for GUARD (basic block). Anonymous armored hands snap an interlocking riveted steel plate up to brace against an incoming hit; sparks scatter off the deflecting surface. Emphasize defense, solid metal, impact deflection. Muted steel-blue and charcoal with one cold cyan-white spark accent. No face, no character."
+    },
+    {
+      "id": "doubleshot", "file": "doubleshot.png", "kind": "card", "cardName": "연사", "scope": "shared", "race": "T", "type": "attack", "motif": "two rapid shots",
+      "prompt": "Shared common-card art for DOUBLE SHOT (two-hit attack). A twin-barrel autogun firing two rapid overlapping muzzle flashes, two parallel tracer streaks slicing the dark. Emphasize rhythm and rapid fire. Muted iron with two hot orange tracer accents. No face, no character."
+    },
+    {
+      "id": "heavyshot", "file": "heavyshot.png", "kind": "card", "cardName": "중사격", "scope": "shared", "race": "T", "type": "attack", "motif": "charged heavy shell",
+      "prompt": "Shared common-card art for HEAVY SHOT (high-damage attack). A massive single cannon barrel unloading one charged heavy shell with a huge shockwave ring and violent recoil smoke. Emphasize weight and overwhelming force. Muted charcoal and rust with one blazing orange-white blast accent. No face, no character."
+    },
+    {
+      "id": "expose", "file": "expose.png", "kind": "card", "cardName": "약점 노출", "scope": "shared", "race": "T", "type": "skill", "motif": "targeting scan / weak point",
+      "prompt": "Shared common-card art for EXPOSE (apply Vulnerable). A glowing targeting reticle and scan-line lock onto a cracked armored weak point, highlighting a fracture about to be exploited. Emphasize analysis and a marked vulnerability. Dark palette with one piercing red-orange scan accent. No face, no character, no readable text."
+    },
+    {
+      "id": "quickshot", "file": "quickshot.png", "kind": "card", "cardName": "속사", "scope": "shared", "race": "T", "type": "attack", "motif": "fast snap shot",
+      "prompt": "Shared common-card art for QUICK SHOT (cheap fast attack). A compact sidearm firing one fast snap shot, a single sharp tracer streak and motion-blur of speed. Emphasize quickness and economy. Muted gunmetal with one bright yellow speed accent. No face, no character."
+    },
+    {
+      "id": "suppress", "file": "suppress.png", "kind": "card", "cardName": "제압 사격", "scope": "shared", "race": "T", "type": "attack", "motif": "suppressing fire",
+      "prompt": "Shared common-card art for SUPPRESSING FIRE (attack + Weak). A heavy gun spraying sustained suppressing fire, a wide hail of tracers and shell casings forcing the target to flinch and stagger. Emphasize relentless pressure that weakens. Muted iron with one harsh orange tracer accent and faint sickly green weaken haze. No face, no character."
+    },
+    {
+      "id": "bulwark", "file": "bulwark.png", "kind": "card", "cardName": "철갑 진지", "scope": "shared", "race": "T", "type": "skill", "motif": "fortified barricade",
+      "prompt": "Shared common-card art for BULWARK (large block). A heavy riveted armored barricade slamming into place, sandbags and steel plates forming a fortified firing position. Emphasize entrenched protection. Muted charcoal and rusted iron with one cold steel highlight. No face, no character."
+    },
+    {
+      "id": "volley", "file": "volley.png", "kind": "card", "cardName": "화망 전개", "scope": "shared", "race": "T", "type": "attack", "motif": "overlapping fire lanes",
+      "prompt": "Shared common-card art for VOLLEY (multi-hit attack). Multiple gun muzzles unleashing overlapping fire lanes, a crisscross of three tracer streaks converging into a kill zone. Emphasize coordinated saturating fire. Muted iron with three converging hot orange tracer accents. No face, no character."
+    },
+    {
+      "id": "bash", "file": "bash.png", "kind": "card", "cardName": "강타", "scope": "shared", "race": "T", "type": "attack", "motif": "heavy impact + armor crack",
+      "prompt": "Shared common-card art for BASH (heavy attack that exposes a weakness). A massive riveted weapon-butt or piston ramming into armor, the plate cracking and buckling on impact with a burst of sparks. Emphasize a brutal blow that opens a fracture. Muted charcoal and rust with one hot orange impact accent and a sharp white crack highlight. No face, no character."
+    },
+    {
+      "id": "flurry", "file": "flurry.png", "kind": "card", "cardName": "난사", "scope": "shared", "race": "T", "type": "attack", "motif": "rapid light spray",
+      "prompt": "Shared common-card art for FLURRY (small multi-hit attack). A light rapid-fire weapon spitting a fast scatter of small shots and casings, a flurry of tiny tracer streaks. Emphasize speed and many small hits. Muted gunmetal with bright yellow-orange spray accents. No face, no character."
+    },
+    {
+      "id": "aimedshot", "file": "aimedshot.png", "kind": "card", "cardName": "정조준", "scope": "shared", "race": "T", "type": "attack", "motif": "precise aimed shot",
+      "prompt": "Shared common-card art for AIMED SHOT (efficient single hit). A long-barrel marksman rifle firing one precise shot straight down a glowing sight-line into the dark, single clean tracer. Emphasize precision and focus. Muted gunmetal and charcoal with one sharp cyan-white sight accent. No face, no character."
+    },
+    {
+      "id": "shieldwall", "file": "shieldwall.png", "kind": "card", "cardName": "방벽", "scope": "shared", "race": "T", "type": "skill", "motif": "massive deployed barrier",
+      "prompt": "Shared common-card art for SHIELD WALL (big block). A huge deployable armored barrier wall slamming down and locking into place, a wall of layered riveted steel filling the whole frame. Emphasize impregnable defense. Muted charcoal and steel with one cold cyan rim light. ABSOLUTELY NO people, NO figures, NO silhouettes of any person, NO tiny scale figure — show only the empty fortification wall and ground."
+    },
+    {
+      "id": "pin", "file": "pin.png", "kind": "card", "cardName": "결박 사격", "scope": "shared", "race": "T", "type": "skill", "motif": "pinning / restraining shot",
+      "prompt": "Shared common-card art for PIN (apply Vulnerable + Weak). A shot or harpoon pinning a target's limb against the ground with a glowing energy tether, the target restrained and off-balance. Emphasize control and suppression that both exposes and weakens. Dark palette with one red-orange tether accent and faint green weaken haze. No face, no character."
+    },
+    {
+      "id": "adrenaline", "file": "adrenaline.png", "kind": "card", "cardName": "아드레날린", "scope": "shared", "race": "T", "type": "skill", "motif": "energy surge / stim (one-time)",
+      "prompt": "Shared common-card art for ADRENALINE (gain energy, draw cards, exhaust). A combat stim injector firing, a violent surge of glowing energy bursting up an armored forearm in a spike of power that is clearly burning itself out. Emphasize a one-time explosive energy rush. Dark palette with one electric cyan-white surge accent flaring to hot orange. No face, no character, no readable text."
+    },
+    {
+      "id": "empower", "file": "empower.png", "kind": "card", "cardName": "전투 함성", "scope": "shared", "race": "T", "type": "skill", "motif": "strength buildup / war cry",
+      "prompt": "Shared common-card art for EMPOWER (gain Strength). An armored fist clenching as a rising aura of power coils up the arm, gathering strength and battle fury, surrounding metal trembling with energy. Emphasize building, lasting power. Dark palette with one fierce ember-red and gold power aura accent. No face, no character."
+    },
+    {
+      "id": "flash_bang", "file": "flash_bang.png", "kind": "card", "cardName": "섬광탄", "scope": "shared", "race": "T", "type": "skill", "motif": "blinding flash grenade / stun",
+      "prompt": "Shared rare-card art for FLASH BANG (apply Vulnerable and Stun). A compact rugged industrial flash grenade detonating at the exact center of a dark battlefield, producing one overwhelming white-gold starburst with hard concentric shock rings and sharp cyan afterimage streaks. The grenade silhouette remains readable inside the flare. Emphasize instant disorientation and a clean stun effect, not fire damage. Deep charcoal background, high contrast, centered square composition, generous safe margins. No face, no character, no text, no icon frame."
+    }
+  ]
+}

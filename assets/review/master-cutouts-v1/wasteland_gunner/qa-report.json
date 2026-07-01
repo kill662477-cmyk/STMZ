@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\masters\\wasteland_gunner\\wasteland_gunner_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\wasteland_gunner\\wasteland_gunner_cutout_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\wasteland_gunner\\wasteland_gunner_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    123,
+    153,
+    100
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        62,
+        90,
+        962,
+        976
+      ],
+      "margins": {
+        "left": 62,
+        "right": 62,
+        "top": 90,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.31789,
+      "partial_alpha_pixels": 79245,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\wasteland_gunner\\frames\\00_master.png"
+    }
+  ]
+}

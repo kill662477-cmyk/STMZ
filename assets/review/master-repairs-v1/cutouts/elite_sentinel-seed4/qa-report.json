@@ -1,0 +1,57 @@
+{
+  "source": "assets\\review\\master-repairs-v1\\elite_sentinel-v1.png",
+  "sheet": "assets\\review\\master-repairs-v1\\cutouts\\elite_sentinel-seed4\\elite_sentinel_cutout_sheet.png",
+  "preview": "assets\\review\\master-repairs-v1\\cutouts\\elite_sentinel-seed4\\elite_sentinel_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": false,
+    "content_width": null,
+    "content_height": null,
+    "bottom_margin": null
+  },
+  "key_color": [
+    84,
+    132,
+    85
+  ],
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        131,
+        173,
+        882,
+        803
+      ],
+      "margins": {
+        "left": 131,
+        "right": 142,
+        "top": 173,
+        "bottom": 221
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.22833,
+      "partial_alpha_pixels": 169891,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-repairs-v1\\cutouts\\elite_sentinel-seed4\\frames\\00_master.png"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\masters\\interstellar_battleship\\interstellar_battleship_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\interstellar_battleship\\interstellar_battleship_cutout_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\interstellar_battleship\\interstellar_battleship_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    101,
+    154,
+    97
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        62,
+        638,
+        962,
+        976
+      ],
+      "margins": {
+        "left": 62,
+        "right": 62,
+        "top": 638,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.19535,
+      "partial_alpha_pixels": 59389,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\interstellar_battleship\\frames\\00_master.png"
+    }
+  ]
+}

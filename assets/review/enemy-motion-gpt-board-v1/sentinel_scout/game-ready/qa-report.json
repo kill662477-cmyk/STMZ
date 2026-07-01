@@ -1,0 +1,177 @@
+{
+  "source": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\source\\sentinel_scout_keypose_board_safe_source.png",
+  "sheet": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\sentinel_scout_motion_sheet.png",
+  "preview": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\sentinel_scout_motion_preview.png",
+  "grid": {
+    "cols": 3,
+    "rows": 2,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 418,
+    "height": 627
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 320,
+    "content_height": 340,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    18,
+    213,
+    22
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        38,
+        116,
+        345,
+        456
+      ],
+      "margins": {
+        "left": 38,
+        "right": 39,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.23046,
+      "partial_alpha_pixels": 42293,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\frames\\00_idle_low.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        43,
+        116,
+        340,
+        456
+      ],
+      "margins": {
+        "left": 43,
+        "right": 44,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.22333,
+      "partial_alpha_pixels": 40960,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\frames\\01_idle_high.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        36,
+        116,
+        348,
+        456
+      ],
+      "margins": {
+        "left": 36,
+        "right": 36,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.232,
+      "partial_alpha_pixels": 42732,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\frames\\02_windup.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        42,
+        116,
+        341,
+        456
+      ],
+      "margins": {
+        "left": 42,
+        "right": 43,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.22124,
+      "partial_alpha_pixels": 40718,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\frames\\03_release.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        41,
+        116,
+        342,
+        456
+      ],
+      "margins": {
+        "left": 41,
+        "right": 42,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.22403,
+      "partial_alpha_pixels": 41350,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\frames\\04_recovery.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        32,
+        116,
+        352,
+        456
+      ],
+      "margins": {
+        "left": 32,
+        "right": 32,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.23024,
+      "partial_alpha_pixels": 42530,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\game-ready\\frames\\05_hit.png"
+    }
+  ]
+}

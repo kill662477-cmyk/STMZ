@@ -1,0 +1,58 @@
+{
+  "source": "assets\\review\\character-gaze-fix-v1\\finals\\ample_master.png",
+  "sheet": "assets\\review\\character-gaze-fix-v1\\cutout-qa\\ample\\ample_sheet.png",
+  "preview": "assets\\review\\character-gaze-fix-v1\\cutout-qa\\ample\\ample_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 864,
+    "height": 1184
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    36,
+    195,
+    2
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        160,
+        76,
+        863,
+        976
+      ],
+      "margins": {
+        "left": 160,
+        "right": 161,
+        "top": 76,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.34723,
+      "partial_alpha_pixels": 362418,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\character-gaze-fix-v1\\cutout-qa\\ample\\frames\\00_master.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

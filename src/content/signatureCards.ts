@@ -1,0 +1,295 @@
+import type { CardDef } from "../game/engine/types";
+
+export const SIGNATURE_CARD_ID_BY_CHARACTER = {
+  jdd: "jdd_signature",
+  chamchi: "chamchi_signature",
+  sun: "sun_signature",
+  sample: "sample_signature",
+  ample: "ample_signature",
+  fivehundred: "fivehundred_signature",
+  hyeonje: "hyeonje_signature",
+  tyson: "tyson_signature",
+  chu: "chu_signature",
+  rang: "rang_signature",
+  song: "song_signature",
+  soulkey: "soulkey_signature",
+  calm: "calm_signature",
+  killer: "killer_signature",
+  hm: "hm_signature",
+  seventytwo: "seventytwo_signature",
+  zoe: "zoe_signature",
+  bright: "bright_signature",
+  jji: "jji_signature",
+  nangni: "nangni_signature",
+} as const;
+
+type SignatureCharacterId = keyof typeof SIGNATURE_CARD_ID_BY_CHARACTER;
+
+// 시그니처 카드는 캐릭터별 시작 덱 전용이다.
+// 종족 드래프트 풀에는 넣지 않으며, 기존 자동 강화 생성 규칙을 그대로 사용한다.
+export const SIGNATURE_CARDS: Record<string, CardDef> = {
+  jdd_signature: {
+    id: "jdd_signature",
+    name: "집중 포화",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 3 × 2 · 카드 1장 뽑기",
+    effects: [
+      { kind: "damage", amount: 3, hits: 2 },
+      { kind: "draw", amount: 1 },
+    ],
+    signatureFor: "jdd",
+  },
+  chamchi_signature: {
+    id: "chamchi_signature",
+    name: "철갑 탄환",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 7 · 적에게 취약 1",
+    effects: [
+      { kind: "damage", amount: 7 },
+      { kind: "applyStatus", status: "vulnerable", amount: 1, target: "enemy" },
+    ],
+    signatureFor: "chamchi",
+  },
+  sun_signature: {
+    id: "sun_signature",
+    name: "태양 탄막",
+    type: "attack",
+    rarity: "rare",
+    cost: 2,
+    description: "피해 4 × 3",
+    effects: [{ kind: "damage", amount: 4, hits: 3 }],
+    signatureFor: "sun",
+  },
+  sample_signature: {
+    id: "sample_signature",
+    name: "전술 복제",
+    type: "skill",
+    rarity: "rare",
+    cost: 0,
+    description: "에너지 +1 · 카드 1장 뽑기 · 소멸",
+    effects: [
+      { kind: "energy", amount: 1 },
+      { kind: "draw", amount: 1 },
+    ],
+    exhaust: true,
+    signatureFor: "sample",
+  },
+  ample_signature: {
+    id: "ample_signature",
+    name: "강철 엄호",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 4 · 방어도 6",
+    effects: [
+      { kind: "damage", amount: 4 },
+      { kind: "block", amount: 6 },
+    ],
+    signatureFor: "ample",
+  },
+  fivehundred_signature: {
+    id: "fivehundred_signature",
+    name: "500구경",
+    type: "attack",
+    rarity: "rare",
+    cost: 2,
+    description: "피해 12 · 적에게 약화 1",
+    effects: [
+      { kind: "damage", amount: 12 },
+      { kind: "applyStatus", status: "weak", amount: 1, target: "enemy" },
+    ],
+    signatureFor: "fivehundred",
+  },
+  hyeonje_signature: {
+    id: "hyeonje_signature",
+    name: "전장 계산",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 5 · 카드 1장 뽑기",
+    effects: [
+      { kind: "damage", amount: 5 },
+      { kind: "draw", amount: 1 },
+    ],
+    signatureFor: "hyeonje",
+  },
+  tyson_signature: {
+    id: "tyson_signature",
+    name: "사이오닉 훅",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 7 · 적에게 약화 1",
+    effects: [
+      { kind: "damage", amount: 7 },
+      { kind: "applyStatus", status: "weak", amount: 1, target: "enemy" },
+    ],
+    signatureFor: "tyson",
+  },
+  chu_signature: {
+    id: "chu_signature",
+    name: "공명 방벽",
+    type: "skill",
+    rarity: "rare",
+    cost: 1,
+    description: "방어도 8 · 카드 1장 뽑기",
+    effects: [
+      { kind: "block", amount: 8 },
+      { kind: "draw", amount: 1 },
+    ],
+    signatureFor: "chu",
+  },
+  rang_signature: {
+    id: "rang_signature",
+    name: "차원 절단",
+    type: "attack",
+    rarity: "rare",
+    cost: 2,
+    description: "피해 13",
+    effects: [{ kind: "damage", amount: 13 }],
+    signatureFor: "rang",
+  },
+  song_signature: {
+    id: "song_signature",
+    name: "별빛 조율",
+    type: "skill",
+    rarity: "rare",
+    cost: 0,
+    description: "에너지 +1 · 카드 1장 뽑기 · 소멸",
+    effects: [
+      { kind: "energy", amount: 1 },
+      { kind: "draw", amount: 1 },
+    ],
+    exhaust: true,
+    signatureFor: "song",
+  },
+  soulkey_signature: {
+    id: "soulkey_signature",
+    name: "군체 열쇠",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 3 × 2 · 적에게 중독 2",
+    effects: [
+      { kind: "damage", amount: 3, hits: 2 },
+      { kind: "applyStatus", status: "poison", amount: 2, target: "enemy" },
+    ],
+    signatureFor: "soulkey",
+  },
+  calm_signature: {
+    id: "calm_signature",
+    name: "고요한 포식",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 6 · 적에게 약화 1",
+    effects: [
+      { kind: "damage", amount: 6 },
+      { kind: "applyStatus", status: "weak", amount: 1, target: "enemy" },
+    ],
+    signatureFor: "calm",
+  },
+  killer_signature: {
+    id: "killer_signature",
+    name: "살육 본능",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 5 × 2",
+    effects: [{ kind: "damage", amount: 5, hits: 2 }],
+    signatureFor: "killer",
+  },
+  hm_signature: {
+    id: "hm_signature",
+    name: "변이 갑각",
+    type: "skill",
+    rarity: "rare",
+    cost: 1,
+    description: "방어도 7 · 힘 +1",
+    effects: [
+      { kind: "block", amount: 7 },
+      { kind: "applyStatus", status: "strength", amount: 1, target: "self" },
+    ],
+    signatureFor: "hm",
+  },
+  seventytwo_signature: {
+    id: "seventytwo_signature",
+    name: "72개의 가시",
+    type: "attack",
+    rarity: "rare",
+    cost: 2,
+    description: "피해 3 × 4",
+    effects: [{ kind: "damage", amount: 3, hits: 4 }],
+    signatureFor: "seventytwo",
+  },
+  zoe_signature: {
+    id: "zoe_signature",
+    name: "산성 개화",
+    type: "skill",
+    rarity: "rare",
+    cost: 1,
+    description: "적에게 중독 4 · 방어도 3",
+    effects: [
+      { kind: "applyStatus", status: "poison", amount: 4, target: "enemy" },
+      { kind: "block", amount: 3 },
+    ],
+    signatureFor: "zoe",
+  },
+  bright_signature: {
+    id: "bright_signature",
+    name: "섬광 발톱",
+    type: "attack",
+    rarity: "rare",
+    cost: 0,
+    description: "피해 3 · 적에게 취약 1 · 소멸",
+    effects: [
+      { kind: "damage", amount: 3 },
+      { kind: "applyStatus", status: "vulnerable", amount: 1, target: "enemy" },
+    ],
+    exhaust: true,
+    signatureFor: "bright",
+  },
+  jji_signature: {
+    id: "jji_signature",
+    name: "찌의 쇄도",
+    type: "attack",
+    rarity: "rare",
+    cost: 1,
+    description: "피해 3 × 2 · 카드 1장 뽑기",
+    effects: [
+      { kind: "damage", amount: 3, hits: 2 },
+      { kind: "draw", amount: 1 },
+    ],
+    signatureFor: "jji",
+  },
+  nangni_signature: {
+    id: "nangni_signature",
+    name: "끝없는 증식",
+    type: "skill",
+    rarity: "rare",
+    cost: 1,
+    description: "방어도 5 · 카드 1장 뽑기",
+    effects: [
+      { kind: "block", amount: 5 },
+      { kind: "draw", amount: 1 },
+    ],
+    signatureFor: "nangni",
+  },
+};
+
+export function starterDeckWithSignature(
+  baseDeck: string[],
+  characterId: SignatureCharacterId,
+): string[] {
+  const deck = [...baseDeck];
+  const basicIndex = deck.indexOf("strike");
+  if (basicIndex === -1) {
+    throw new Error(`Starter deck for ${characterId} has no strike to replace.`);
+  }
+  deck[basicIndex] = SIGNATURE_CARD_ID_BY_CHARACTER[characterId];
+  return deck;
+}

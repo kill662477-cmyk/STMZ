@@ -1,0 +1,16 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "styleRef": "assets/review/style_anchor_armor.png",
+  "note": "AMPLE v4 uses a verified enlarged face-and-complete-hair crop. Review candidate only.",
+  "negativePrompt": "copying JDD identity, generic invented face, identity drift, long hair, shoulder-length hair, wavy long locks, flat neat hair, helmet-shaped hair, oversized baby eyes, tiny anime nose, thick angular eyebrows, exaggerated baby face, front-facing head, front-facing torso, camera-facing eyes, centered pupils, cross-eyed gaze, looking at viewer, clean flat cartoon, cute smooth cel-shading, simple mobile-chibi, glossy 3D, photoreal pasted face, soft under-rendered face, baseball jersey, readable letters, text, number, logo, card frame, border, UI, watermark, extra limbs, two characters, cropped body, cropped weapon, edge contact",
+  "globalStyle": "Reference-preserving AMPLE character battle master for SLAY THE MONSTARZ. Image 1 is a FACELESS armor crop used ONLY as the rendering-style reference: dense hand-painted dark-fantasy brushwork, thick dark outlines, gritty painterly texture, dramatic shadows, chibi combat proportions, and flat chroma green. Image 2 is a VERIFIED ENLARGED CROP containing AMPLE's complete face and complete outer hairstyle and is the ONLY identity reference. Copy the visible face silhouette, cheek volume, jaw, eye proportions, eyebrows, nose, mouth, hair mass, hairline, fringe, side strands, and exact hair length from Image 2. Integrate the face into exactly the same dense, high-contrast painterly finish as the armor. The face must not look smoother, cleaner, more realistic, more anime-like, or more 3D than the body.",
+  "globalConstraints": "STRICT RIGHT-FACING COMBAT PROFILE. Use a true side view or strongly right-facing 3/4 view: nose, chin, chest, hips, knees, feet, and weapon all point screen RIGHT. Pupils sit at the RIGHT edge of the visible eye and focus just above the gun barrel at an off-screen enemy; the far eye is barely visible. Never look at the viewer. One full-body character head-to-toe, large and centered with generous safe padding; all hair, armor, limbs, and weapon fully inside the canvas. Perfectly flat uniform solid #00ff00 background with no floor, cast shadow, gradient, texture, or reflection.",
+  "assets": [
+    {
+      "id": "ample",
+      "ref": "assets/review/identity-crops/ample-face-v2.png",
+      "race": "T",
+      "prompt": "AMPLE identity lock from the enlarged crop: moderately round face with full cheeks and a soft jaw; large but not exaggerated dark eyes; defined natural eyebrows; small nose; slightly pouting mouth. Preserve the dark voluminous SHORT hair exactly: a high fluffy mass swept forward and slightly right, irregular strands over the forehead, side strands framing the face and partly covering the ears, with all hair ending around the ears or upper jaw. Do not turn it into long, shoulder-length, or wavy flowing hair. TERRAN industrial fighter: heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty mercenary combat stance, subtle navy-white color accents and a tiny abstract emblem with NO readable letters or numbers. Keep the face heavily painted with dark outlines and textured shadows so it belongs to the same illustration as the armor."
+    }
+  ]
+}

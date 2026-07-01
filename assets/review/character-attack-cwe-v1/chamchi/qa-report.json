@@ -1,0 +1,735 @@
+{
+  "id": "chamchi",
+  "source": "cwe\\chamchi.png",
+  "sheet": "assets\\review\\character-attack-cwe-v1\\chamchi\\chamchi_sheet.png",
+  "preview": "assets\\review\\character-attack-cwe-v1\\chamchi\\chamchi_preview.png",
+  "grid": {
+    "cols": 5,
+    "rows": 5,
+    "count": 25
+  },
+  "background_mode": "baked-checkerboard",
+  "extraction": {
+    "detected_main_components": 25,
+    "anchors": {
+      "x": [
+        124.562,
+        370.486,
+        616.409,
+        862.333,
+        1108.257
+      ],
+      "y": [
+        166.562,
+        414.363,
+        662.165,
+        909.966,
+        1157.768
+      ],
+      "x_stride": 245.924,
+      "y_stride": 247.802
+    },
+    "removed_detached_neutral_components": 0
+  },
+  "normalization": {
+    "frame_size": 320,
+    "content_height": 210,
+    "bottom_margin": 28,
+    "source_reference_height": 241.0,
+    "scale": 0.871369,
+    "alignment": {
+      "row_body_centers": [
+        161.883,
+        150.947,
+        153.742,
+        143.804,
+        138.603
+      ],
+      "horizontal_corrections": [
+        0.0,
+        6.175,
+        1.79,
+        -3.831,
+        -2.11,
+        -4.808,
+        1.674,
+        0.0,
+        -3.887,
+        1.443,
+        1.57,
+        -6.245,
+        0.382,
+        -7.124,
+        0.0,
+        -0.027,
+        0.0,
+        8.648,
+        -0.079,
+        12.0,
+        -9.183,
+        -5.158,
+        2.591,
+        0.0,
+        7.59
+      ],
+      "body_bottoms": [
+        266.0,
+        266.0,
+        266.0,
+        266.0,
+        266.0,
+        283.0,
+        283.0,
+        283.0,
+        283.0,
+        283.0,
+        286.0,
+        286.0,
+        286.0,
+        286.0,
+        286.0,
+        278.0,
+        278.0,
+        278.0,
+        278.0,
+        278.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0
+      ],
+      "vertical_corrections": [
+        39.419,
+        39.419,
+        39.419,
+        39.419,
+        39.419,
+        24.419,
+        24.419,
+        24.419,
+        24.419,
+        24.419,
+        22.419,
+        22.419,
+        22.419,
+        22.419,
+        22.419,
+        29.419,
+        29.419,
+        29.419,
+        29.419,
+        29.419,
+        58.419,
+        58.419,
+        58.419,
+        58.419,
+        58.419
+      ]
+    }
+  },
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        82,
+        252,
+        293
+      ],
+      "margins": {
+        "left": 97,
+        "right": 68,
+        "top": 82,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18074,
+      "partial_alpha_pixels": 2579,
+      "index": 0,
+      "name": "frame_00",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\00_frame_00.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        82,
+        252,
+        293
+      ],
+      "margins": {
+        "left": 97,
+        "right": 68,
+        "top": 82,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18244,
+      "partial_alpha_pixels": 2767,
+      "index": 1,
+      "name": "frame_01",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\01_frame_01.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        82,
+        252,
+        293
+      ],
+      "margins": {
+        "left": 97,
+        "right": 68,
+        "top": 82,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18137,
+      "partial_alpha_pixels": 2661,
+      "index": 2,
+      "name": "frame_02",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\02_frame_02.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        83,
+        251,
+        293
+      ],
+      "margins": {
+        "left": 97,
+        "right": 69,
+        "top": 83,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18022,
+      "partial_alpha_pixels": 2666,
+      "index": 3,
+      "name": "frame_03",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\03_frame_03.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        96,
+        82,
+        251,
+        293
+      ],
+      "margins": {
+        "left": 96,
+        "right": 69,
+        "top": 82,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18137,
+      "partial_alpha_pixels": 2777,
+      "index": 4,
+      "name": "frame_04",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\04_frame_04.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        88,
+        86,
+        277,
+        294
+      ],
+      "margins": {
+        "left": 88,
+        "right": 43,
+        "top": 86,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18004,
+      "partial_alpha_pixels": 2827,
+      "index": 5,
+      "name": "frame_05",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\05_frame_05.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        88,
+        86,
+        285,
+        294
+      ],
+      "margins": {
+        "left": 88,
+        "right": 35,
+        "top": 86,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18537,
+      "partial_alpha_pixels": 3120,
+      "index": 6,
+      "name": "frame_06",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\06_frame_06.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        89,
+        86,
+        293,
+        294
+      ],
+      "margins": {
+        "left": 89,
+        "right": 27,
+        "top": 86,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18891,
+      "partial_alpha_pixels": 3342,
+      "index": 7,
+      "name": "frame_07",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\07_frame_07.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        88,
+        86,
+        287,
+        294
+      ],
+      "margins": {
+        "left": 88,
+        "right": 33,
+        "top": 86,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18601,
+      "partial_alpha_pixels": 3225,
+      "index": 8,
+      "name": "frame_08",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\08_frame_08.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        89,
+        86,
+        271,
+        294
+      ],
+      "margins": {
+        "left": 89,
+        "right": 49,
+        "top": 86,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1851,
+      "partial_alpha_pixels": 3465,
+      "index": 9,
+      "name": "frame_09",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\09_frame_09.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        94,
+        297,
+        294
+      ],
+      "margins": {
+        "left": 92,
+        "right": 23,
+        "top": 94,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1841,
+      "partial_alpha_pixels": 3546,
+      "index": 10,
+      "name": "frame_10",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\10_frame_10.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        58,
+        94,
+        282,
+        294
+      ],
+      "margins": {
+        "left": 58,
+        "right": 38,
+        "top": 94,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18065,
+      "partial_alpha_pixels": 3568,
+      "index": 11,
+      "name": "frame_11",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\11_frame_11.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        94,
+        292,
+        294
+      ],
+      "margins": {
+        "left": 92,
+        "right": 28,
+        "top": 94,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1847,
+      "partial_alpha_pixels": 3575,
+      "index": 12,
+      "name": "frame_12",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\12_frame_12.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        94,
+        282,
+        294
+      ],
+      "margins": {
+        "left": 92,
+        "right": 38,
+        "top": 94,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1808,
+      "partial_alpha_pixels": 3603,
+      "index": 13,
+      "name": "frame_13",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\13_frame_13.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        94,
+        272,
+        294
+      ],
+      "margins": {
+        "left": 94,
+        "right": 48,
+        "top": 94,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17531,
+      "partial_alpha_pixels": 3491,
+      "index": 14,
+      "name": "frame_14",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\14_frame_14.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        85,
+        100,
+        280,
+        294
+      ],
+      "margins": {
+        "left": 85,
+        "right": 40,
+        "top": 100,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17388,
+      "partial_alpha_pixels": 3238,
+      "index": 15,
+      "name": "frame_15",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\15_frame_15.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        52,
+        100,
+        276,
+        294
+      ],
+      "margins": {
+        "left": 52,
+        "right": 44,
+        "top": 100,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17354,
+      "partial_alpha_pixels": 3540,
+      "index": 16,
+      "name": "frame_16",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\16_frame_16.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        85,
+        100,
+        273,
+        294
+      ],
+      "margins": {
+        "left": 85,
+        "right": 47,
+        "top": 100,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17104,
+      "partial_alpha_pixels": 3198,
+      "index": 17,
+      "name": "frame_17",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\17_frame_17.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        86,
+        100,
+        258,
+        294
+      ],
+      "margins": {
+        "left": 86,
+        "right": 62,
+        "top": 100,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16796,
+      "partial_alpha_pixels": 3346,
+      "index": 18,
+      "name": "frame_18",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\18_frame_18.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        85,
+        100,
+        255,
+        294
+      ],
+      "margins": {
+        "left": 85,
+        "right": 65,
+        "top": 100,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16493,
+      "partial_alpha_pixels": 3162,
+      "index": 19,
+      "name": "frame_19",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\19_frame_19.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        87,
+        119,
+        217,
+        294
+      ],
+      "margins": {
+        "left": 87,
+        "right": 103,
+        "top": 119,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12877,
+      "partial_alpha_pixels": 2145,
+      "index": 20,
+      "name": "frame_20",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\20_frame_20.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        86,
+        120,
+        216,
+        294
+      ],
+      "margins": {
+        "left": 86,
+        "right": 104,
+        "top": 120,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12802,
+      "partial_alpha_pixels": 2135,
+      "index": 21,
+      "name": "frame_21",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\21_frame_21.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        86,
+        119,
+        216,
+        294
+      ],
+      "margins": {
+        "left": 86,
+        "right": 104,
+        "top": 119,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1283,
+      "partial_alpha_pixels": 2125,
+      "index": 22,
+      "name": "frame_22",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\22_frame_22.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        87,
+        120,
+        216,
+        294
+      ],
+      "margins": {
+        "left": 87,
+        "right": 104,
+        "top": 120,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1274,
+      "partial_alpha_pixels": 2195,
+      "index": 23,
+      "name": "frame_23",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\23_frame_23.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        87,
+        119,
+        217,
+        294
+      ],
+      "margins": {
+        "left": 87,
+        "right": 103,
+        "top": 119,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12755,
+      "partial_alpha_pixels": 2119,
+      "index": 24,
+      "name": "frame_24",
+      "file": "assets\\review\\character-attack-cwe-v1\\chamchi\\frames\\24_frame_24.png"
+    }
+  ]
+}

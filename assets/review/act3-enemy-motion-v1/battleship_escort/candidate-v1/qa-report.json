@@ -1,0 +1,183 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\review\\act3-enemy-motion-v1\\source\\battleship_escort-v1.png",
+  "sheet": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\battleship_escort_sheet.png",
+  "preview": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\battleship_escort_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 336,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    13,
+    245,
+    15
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        333,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 333,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14019,
+      "partial_alpha_pixels": 18389,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        331,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 331,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14205,
+      "partial_alpha_pixels": 18597,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        333,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 333,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.13986,
+      "partial_alpha_pixels": 18531,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        335,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 335,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.13604,
+      "partial_alpha_pixels": 18116,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        335,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 335,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.13842,
+      "partial_alpha_pixels": 18369,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        334,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 334,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1377,
+      "partial_alpha_pixels": 18404,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\act3-enemy-motion-v1\\battleship_escort\\candidate-v1\\frames\\05_hit.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

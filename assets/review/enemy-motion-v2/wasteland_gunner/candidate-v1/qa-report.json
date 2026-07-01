@@ -1,0 +1,177 @@
+{
+  "source": "assets\\review\\enemy-motion-v2\\source\\wasteland_gunner-v1.png",
+  "sheet": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\wasteland_gunner_keypose_sheet.png",
+  "preview": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\wasteland_gunner_keypose_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 512,
+    "height": 342
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 336,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    142,
+    183,
+    88
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        54,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 54,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37741,
+      "partial_alpha_pixels": 14304,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\frames\\00_idle_low.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        34,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 34,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.41404,
+      "partial_alpha_pixels": 15368,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\frames\\01_idle_high.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        52,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 52,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.38443,
+      "partial_alpha_pixels": 14265,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\frames\\02_windup.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        33,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 33,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.43429,
+      "partial_alpha_pixels": 14802,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\frames\\03_release.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        51,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 51,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.38282,
+      "partial_alpha_pixels": 15238,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\frames\\04_recovery.png"
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        30,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 30,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.42265,
+      "partial_alpha_pixels": 15694,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-v2\\wasteland_gunner\\candidate-v1\\frames\\05_hit.png"
+    }
+  ]
+}

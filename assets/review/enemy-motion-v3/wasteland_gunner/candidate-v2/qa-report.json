@@ -1,0 +1,183 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\review\\enemy-motion-v3\\source\\wasteland_gunner-left-v2.png",
+  "sheet": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\wasteland_gunner_sheet.png",
+  "preview": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\wasteland_gunner_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 336,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    13,
+    244,
+    18
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        106,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 106,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.29103,
+      "partial_alpha_pixels": 47188,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        84,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 84,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.31594,
+      "partial_alpha_pixels": 51480,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        137,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 137,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.26167,
+      "partial_alpha_pixels": 42535,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        107,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 107,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.28833,
+      "partial_alpha_pixels": 46929,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        138,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 138,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.25455,
+      "partial_alpha_pixels": 41705,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        103,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 103,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.28853,
+      "partial_alpha_pixels": 46868,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-v3\\wasteland_gunner\\candidate-v2\\frames\\05_hit.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

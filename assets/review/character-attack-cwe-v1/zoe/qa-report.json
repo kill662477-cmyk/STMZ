@@ -1,0 +1,735 @@
+{
+  "id": "zoe",
+  "source": "cwe\\zoe.png",
+  "sheet": "assets\\review\\character-attack-cwe-v1\\zoe\\zoe_sheet.png",
+  "preview": "assets\\review\\character-attack-cwe-v1\\zoe\\zoe_preview.png",
+  "grid": {
+    "cols": 5,
+    "rows": 5,
+    "count": 25
+  },
+  "background_mode": "baked-checkerboard",
+  "extraction": {
+    "detected_main_components": 25,
+    "anchors": {
+      "x": [
+        145.912,
+        386.522,
+        627.133,
+        867.743,
+        1108.353
+      ],
+      "y": [
+        139.297,
+        377.979,
+        616.662,
+        855.344,
+        1094.027
+      ],
+      "x_stride": 240.61,
+      "y_stride": 238.683
+    },
+    "removed_detached_neutral_components": 0
+  },
+  "normalization": {
+    "frame_size": 320,
+    "content_height": 210,
+    "bottom_margin": 28,
+    "source_reference_height": 227.0,
+    "scale": 0.92511,
+    "alignment": {
+      "row_body_centers": [
+        153.114,
+        154.789,
+        167.408,
+        153.53,
+        153.517
+      ],
+      "horizontal_corrections": [
+        -4.06,
+        3.823,
+        0.0,
+        1.409,
+        -4.706,
+        4.08,
+        -1.225,
+        0.0,
+        2.54,
+        -2.01,
+        -3.94,
+        0.0,
+        -1.141,
+        5.415,
+        11.645,
+        6.425,
+        0.0,
+        -12.0,
+        -12.0,
+        12.0,
+        -3.986,
+        7.117,
+        0.0,
+        3.25,
+        -4.337
+      ],
+      "body_bottoms": [
+        272.0,
+        272.0,
+        272.0,
+        272.0,
+        272.0,
+        268.0,
+        273.0,
+        271.0,
+        272.0,
+        270.0,
+        245.0,
+        244.0,
+        243.0,
+        240.0,
+        237.0,
+        259.0,
+        259.0,
+        259.0,
+        259.0,
+        260.0,
+        280.0,
+        280.0,
+        280.0,
+        281.0,
+        280.0
+      ],
+      "vertical_corrections": [
+        28.018,
+        28.018,
+        28.018,
+        28.018,
+        28.018,
+        32.018,
+        27.018,
+        29.018,
+        28.018,
+        30.018,
+        53.018,
+        54.018,
+        55.018,
+        58.018,
+        61.018,
+        40.018,
+        40.018,
+        40.018,
+        40.018,
+        39.018,
+        21.018,
+        21.018,
+        21.018,
+        20.018,
+        21.018
+      ]
+    }
+  },
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        93,
+        84,
+        258,
+        295
+      ],
+      "margins": {
+        "left": 93,
+        "right": 62,
+        "top": 84,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1712,
+      "partial_alpha_pixels": 3799,
+      "index": 0,
+      "name": "frame_00",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\00_frame_00.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        84,
+        252,
+        295
+      ],
+      "margins": {
+        "left": 94,
+        "right": 68,
+        "top": 84,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17048,
+      "partial_alpha_pixels": 3730,
+      "index": 1,
+      "name": "frame_01",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\01_frame_01.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        84,
+        250,
+        295
+      ],
+      "margins": {
+        "left": 94,
+        "right": 70,
+        "top": 84,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17084,
+      "partial_alpha_pixels": 3776,
+      "index": 2,
+      "name": "frame_02",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\02_frame_02.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        93,
+        84,
+        251,
+        295
+      ],
+      "margins": {
+        "left": 93,
+        "right": 69,
+        "top": 84,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16839,
+      "partial_alpha_pixels": 3676,
+      "index": 3,
+      "name": "frame_03",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\03_frame_03.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        84,
+        252,
+        295
+      ],
+      "margins": {
+        "left": 94,
+        "right": 68,
+        "top": 84,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17072,
+      "partial_alpha_pixels": 3843,
+      "index": 4,
+      "name": "frame_04",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\04_frame_04.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        95,
+        269,
+        299
+      ],
+      "margins": {
+        "left": 92,
+        "right": 51,
+        "top": 95,
+        "bottom": 21
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17309,
+      "partial_alpha_pixels": 4280,
+      "index": 5,
+      "name": "frame_05",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\05_frame_05.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        90,
+        90,
+        258,
+        297
+      ],
+      "margins": {
+        "left": 90,
+        "right": 62,
+        "top": 90,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16898,
+      "partial_alpha_pixels": 3948,
+      "index": 6,
+      "name": "frame_06",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\06_frame_06.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        98,
+        92,
+        262,
+        297
+      ],
+      "margins": {
+        "left": 98,
+        "right": 58,
+        "top": 92,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16966,
+      "partial_alpha_pixels": 4111,
+      "index": 7,
+      "name": "frame_07",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\07_frame_07.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        91,
+        262,
+        298
+      ],
+      "margins": {
+        "left": 92,
+        "right": 58,
+        "top": 91,
+        "bottom": 22
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16739,
+      "partial_alpha_pixels": 4160,
+      "index": 8,
+      "name": "frame_08",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\08_frame_08.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        93,
+        260,
+        298
+      ],
+      "margins": {
+        "left": 92,
+        "right": 60,
+        "top": 93,
+        "bottom": 22
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16833,
+      "partial_alpha_pixels": 3924,
+      "index": 9,
+      "name": "frame_09",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\09_frame_09.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        66,
+        117,
+        279,
+        302
+      ],
+      "margins": {
+        "left": 66,
+        "right": 41,
+        "top": 117,
+        "bottom": 18
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17525,
+      "partial_alpha_pixels": 4338,
+      "index": 10,
+      "name": "frame_10",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\10_frame_10.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        67,
+        119,
+        277,
+        300
+      ],
+      "margins": {
+        "left": 67,
+        "right": 43,
+        "top": 119,
+        "bottom": 20
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16959,
+      "partial_alpha_pixels": 4116,
+      "index": 11,
+      "name": "frame_11",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\11_frame_11.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        63,
+        121,
+        279,
+        300
+      ],
+      "margins": {
+        "left": 63,
+        "right": 41,
+        "top": 121,
+        "bottom": 20
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17444,
+      "partial_alpha_pixels": 4149,
+      "index": 12,
+      "name": "frame_12",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\12_frame_12.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        61,
+        124,
+        270,
+        298
+      ],
+      "margins": {
+        "left": 61,
+        "right": 50,
+        "top": 124,
+        "bottom": 22
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1654,
+      "partial_alpha_pixels": 3907,
+      "index": 13,
+      "name": "frame_13",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\13_frame_13.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        64,
+        127,
+        281,
+        301
+      ],
+      "margins": {
+        "left": 64,
+        "right": 39,
+        "top": 127,
+        "bottom": 19
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1677,
+      "partial_alpha_pixels": 4107,
+      "index": 14,
+      "name": "frame_14",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\14_frame_14.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        62,
+        104,
+        262,
+        297
+      ],
+      "margins": {
+        "left": 62,
+        "right": 58,
+        "top": 104,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17547,
+      "partial_alpha_pixels": 4278,
+      "index": 15,
+      "name": "frame_15",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\15_frame_15.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        61,
+        94,
+        272,
+        297
+      ],
+      "margins": {
+        "left": 61,
+        "right": 48,
+        "top": 94,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.19514,
+      "partial_alpha_pixels": 4741,
+      "index": 16,
+      "name": "frame_16",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\16_frame_16.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        38,
+        95,
+        283,
+        297
+      ],
+      "margins": {
+        "left": 38,
+        "right": 37,
+        "top": 95,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.20933,
+      "partial_alpha_pixels": 5369,
+      "index": 17,
+      "name": "frame_17",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\17_frame_17.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        40,
+        89,
+        260,
+        297
+      ],
+      "margins": {
+        "left": 40,
+        "right": 60,
+        "top": 89,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.20303,
+      "partial_alpha_pixels": 6686,
+      "index": 18,
+      "name": "frame_18",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\18_frame_18.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        61,
+        111,
+        294,
+        296
+      ],
+      "margins": {
+        "left": 61,
+        "right": 26,
+        "top": 111,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17025,
+      "partial_alpha_pixels": 4429,
+      "index": 19,
+      "name": "frame_19",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\19_frame_19.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        78,
+        259,
+        295
+      ],
+      "margins": {
+        "left": 94,
+        "right": 61,
+        "top": 78,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17577,
+      "partial_alpha_pixels": 3838,
+      "index": 20,
+      "name": "frame_20",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\20_frame_20.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        78,
+        251,
+        295
+      ],
+      "margins": {
+        "left": 97,
+        "right": 69,
+        "top": 78,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17191,
+      "partial_alpha_pixels": 3661,
+      "index": 21,
+      "name": "frame_21",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\21_frame_21.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        79,
+        248,
+        295
+      ],
+      "margins": {
+        "left": 97,
+        "right": 72,
+        "top": 79,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16942,
+      "partial_alpha_pixels": 3669,
+      "index": 22,
+      "name": "frame_22",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\22_frame_22.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        91,
+        79,
+        250,
+        294
+      ],
+      "margins": {
+        "left": 91,
+        "right": 70,
+        "top": 79,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1693,
+      "partial_alpha_pixels": 3724,
+      "index": 23,
+      "name": "frame_23",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\23_frame_23.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        95,
+        79,
+        254,
+        295
+      ],
+      "margins": {
+        "left": 95,
+        "right": 66,
+        "top": 79,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17185,
+      "partial_alpha_pixels": 3957,
+      "index": 24,
+      "name": "frame_24",
+      "file": "assets\\review\\character-attack-cwe-v1\\zoe\\frames\\24_frame_24.png"
+    }
+  ]
+}

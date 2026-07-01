@@ -1,0 +1,183 @@
+{
+  "source": "assets\\review\\act2-enemy-motion-v1\\source\\abyssal_charger-v2.png",
+  "sheet": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\abyssal_charger_sheet.png",
+  "preview": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\abyssal_charger_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 336,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    16,
+    236,
+    19
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        279,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 279,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16653,
+      "partial_alpha_pixels": 22720,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        250,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 250,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18772,
+      "partial_alpha_pixels": 25232,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        292,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 292,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1332,
+      "partial_alpha_pixels": 18411,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        312,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 312,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14218,
+      "partial_alpha_pixels": 19880,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        252,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 252,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1853,
+      "partial_alpha_pixels": 24048,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        263,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 263,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18322,
+      "partial_alpha_pixels": 24181,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\act2-enemy-motion-v1\\abyssal_charger\\candidate-v2\\frames\\05_hit.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

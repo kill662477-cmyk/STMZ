@@ -1,0 +1,19 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "note": "2막 적 마스터. gen_images.py → assets/review/act2-enemy-masters-v1/{id}-v1.png. QA → 승인 → assets/masters/{id}/ → 키포즈 보드 → texture 교체(현재 scout/queen 공유).",
+  "negativePrompt": "glossy 3D render, smooth mobile render, front-facing pose, cropped limbs or weapon or tusks, multiple creatures, humanoid player character, text, logo, watermark, color fringe, recognizable franchise unit copy, #00ff00 on the subject",
+  "globalStyle": "Original ENEMY battle sprite for SLAY THE MONSTARZ (Slay-the-Spire-style dark-fantasy roguelike). Hand-painted dark-fantasy 2D, thick dark outlines, gritty painterly texture, muted palette with luminous faction accents; menacing, readable silhouette. Match the painted tone of existing enemies sentinel_scout / brood_queen.",
+  "globalConstraints": "STRICT SIDE VIEW facing LEFT (toward the player). Full body, centered, generous safe padding, nothing touching the edge. Flat uniform solid #00ff00 chroma background. No text, no logo, no watermark.",
+  "assets": [
+    { "id": "void_stalker", "race": "P",
+      "prompt": "The Void Stalker, a compact hovering Protoss-style hunter: smooth symmetrical ancient-relic armor, crescent-moon silhouette, paired cyan-and-violet resonance rings orbiting the body, a single sharp glowing eye, thin phase-strike fins. Hovering battle-ready idle, menacing but mid-tier (clearly smaller than a boss). Tarnished gold with luminous cyan/violet accents." },
+    { "id": "siege_marauder", "race": "T",
+      "prompt": "The Siege Marauder, a squat rusted industrial artillery raider: heavy riveted iron armor, twin recoil cannons, glowing furnace vents, heavy forward-leaning aggressive stance. Charcoal and rusted iron with ember-orange furnace accents." },
+    { "id": "chitin_brute", "race": "Z",
+      "prompt": "The Chitin Brute, a low quadrupedal charging beast: asymmetric layered chitin plates, a blunt horned skull, massive forelimbs, acid vents along the back. Grounded and heavy. Purple-black chitin with acid-yellow and magenta biological accents. Keep horns and limbs fully in frame." },
+    { "id": "resonance_warden", "race": "P", "tier": "elite",
+      "prompt": "The Resonance Warden, a larger ceremonial floating Protoss executioner (ELITE): obsidian-and-aged-gold armor, several orbiting shield slabs, an imposing resonance-wave weapon. Clearly more elite and massive than a basic floating hunter, regal and threatening. Deep black with tarnished gold and cyan/violet energy. Keep weapon and orbiting slabs in frame." },
+    { "id": "abyssal_charger", "race": "Z", "tier": "boss",
+      "prompt": "The Abyssal Charger, an enormous low-slung armored Zerg BOSS charger: wedge-shaped armored head, TWO original scythe tusks (both fully visible, NOT cropped), dense black-purple carapace, glowing abyssal-magenta sacs. Unmistakable boss mass, much larger than any normal enemy, coiled to charge. Boss-quality detail, EXTRA-generous padding so both tusks and head stay inside the frame." }
+  ]
+}

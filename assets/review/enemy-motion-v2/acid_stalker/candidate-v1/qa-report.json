@@ -1,0 +1,183 @@
+{
+  "source": "assets\\review\\enemy-motion-v2\\source\\acid_stalker-v1.png",
+  "sheet": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\acid_stalker_keypose_sheet.png",
+  "preview": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\acid_stalker_keypose_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 512,
+    "height": 342
+  },
+  "frame_size": {
+    "width": 480,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 432,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    131,
+    179,
+    73
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        56,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 56,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37598,
+      "partial_alpha_pixels": 18197,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        58,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 58,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37318,
+      "partial_alpha_pixels": 18877,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        59,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 59,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.39101,
+      "partial_alpha_pixels": 21291,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        58,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 58,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.38082,
+      "partial_alpha_pixels": 19030,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        55,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 55,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37469,
+      "partial_alpha_pixels": 18851,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        59,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 59,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37694,
+      "partial_alpha_pixels": 18400,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-v2\\acid_stalker\\candidate-v1\\frames\\05_hit.png",
+      "flipped_horizontally": true
+    }
+  ]
+}

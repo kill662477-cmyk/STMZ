@@ -1,0 +1,17 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "styleRef": "assets/review/style_anchor_armor.png",
+  "note": "AMPLE v3 correction after v2 fixed gaze but failed identity and face-style QA. Review candidate only.",
+  "negativePrompt": "copying JDD identity, preserving the rejected candidate face, flat neat brown hair, helmet-shaped hair, oversized round baby eyes, thick angular eyebrows, exaggerated baby face, generic invented face, identity drift, front-facing head, front-facing torso, camera-facing eyes, centered pupils, looking at viewer, clean flat cartoon, cute smooth cel-shading, simple mobile-chibi, glossy 3D, photoreal pasted face, soft under-rendered face, baseball jersey, card frame, border, UI, text, logo, watermark, extra limbs, two characters, cropped body, cropped weapon, edge contact",
+  "globalStyle": "Reference-preserving AMPLE character battle master for SLAY THE MONSTARZ. THREE images are provided. Image 1 is a FACELESS armor crop used ONLY as the dense hand-painted dark-fantasy rendering-style reference. Image 2 is the rejected v2 candidate used ONLY for its acceptable Terran armor, full-body framing, strongly right-facing pose, and screen-right gaze; do NOT preserve its face or hair. Image 3 is the ONLY FACE AND HAIR IDENTITY reference. Completely redraw the head from Image 3. Integrate it into the same dense gritty painterly finish, thick dark outline, dramatic face shadows, chibi combat proportions, and material detail as the armor. The face must not be smoother, cleaner, more realistic, more anime-like, or more 3D than the body.",
+  "globalConstraints": "STRICT RIGHT-FACING COMBAT PROFILE. Preserve the successful v2 orientation: nose, chin, chest, hips, knees, feet, and weapon point screen RIGHT. Pupils sit at the RIGHT edge of the visible eye and focus just above the gun barrel at an off-screen enemy; the far eye is barely visible. Never look at the viewer. One full-body character head-to-toe, large and centered with generous safe padding; all hair, armor, limbs, and weapon fully inside the canvas. Perfectly flat uniform solid #00ff00 background with no floor, cast shadow, gradient, texture, or reflection.",
+  "assets": [
+    {
+      "id": "ample",
+      "ref": "25_ample.png",
+      "styleRef": "assets/review/character-masters-v2/ample-v2.png",
+      "race": "T",
+      "prompt": "AMPLE identity correction: dark charcoal-grey fluffy hair, noticeably voluminous and airy on top, soft irregular fringe swept slightly right, short sides covering the ears. Do not make the hair flat, neat, dark-brown, or helmet-shaped. Use the reference's moderately rounded face and soft jaw without exaggerating it into a very round baby face. Match the reference's medium-sized eyes rather than oversized round cartoon eyes. Use softer, less thick, less angular eyebrows. Preserve the reference nose, mouth, cheek proportions, and recognizable expression. Apply stronger dark outline definition, denser brush texture, and the same dramatic facial shadow treatment as the body. TERRAN industrial fighter: keep the prior candidate's heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty combat stance, and subtle navy-white MONSTARZ accents; no baseball jersey."
+    }
+  ]
+}

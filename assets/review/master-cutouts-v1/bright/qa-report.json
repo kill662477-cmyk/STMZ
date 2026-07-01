@@ -1,0 +1,58 @@
+{
+  "source": "assets\\masters\\bright\\bright_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\bright\\bright_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\bright\\bright_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 864,
+    "height": 1184
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    35,
+    199,
+    3
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        147,
+        76,
+        877,
+        976
+      ],
+      "margins": {
+        "left": 147,
+        "right": 147,
+        "top": 76,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.30863,
+      "partial_alpha_pixels": 325361,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\bright\\frames\\00_master.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

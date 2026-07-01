@@ -1,0 +1,16 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "negativePrompt": "characters, creatures, figures, people, UI, text, numbers, logo, watermark, color fringe, glossy 3D render, foreground clutter",
+  "globalStyle": "WIDE CINEMATIC 16:9 HORIZONTAL PANORAMIC landscape background for a Slay-the-Spire-style turn-based battler stage. HAND-PAINTED 2D illustration, dark-fantasy tone: painterly brushwork, dark muted palette, dramatic dim lighting, gritty texture.",
+  "globalConstraints": "IMPORTANT: keep the CENTER and LOWER-MIDDLE open, uncluttered and darker so characters read on top; push detail to edges and far background. No characters, no creatures, no figures, no UI, no text, no watermark, no color fringe. 16:9 horizontal wide composition.",
+  "assets": [
+    {
+      "id": "stage_bg_act2",
+      "prompt": "Theme: The Resonating Abyss — a dark resonant void-cavern battlefield deep underground inside a derelict relic structure. A cracked obsidian-and-metal ground plane across the foreground where fighters stand; at the left and right edges, broken Protoss-style relic pillars and arches fused with abyssal Zerg growth and dripping organic matter; distant hazy silhouettes of vast resonant rings and a yawning magenta abyss in the deep background; floating dim resonance shards. Accent glow: cyan and violet resonance with deep magenta abyss light."
+    },
+    {
+      "id": "stage_bg_act3",
+      "prompt": "Theme: The Interstellar End — the battle-scarred upper deck and hull plating of a colossal gothic dreadnought drifting in a starless void. A riveted blackened-steel deck plane across the foreground; at the left and right edges, towering gothic capital-ship superstructure, broken antennae, and glowing furnace windows; in the deep background a starless void with distant dim fleet silhouettes and faint nebula haze. Accent glow: ember-red and white-hot reactor light with cool cyan-gold rim light."
+    }
+  ]
+}

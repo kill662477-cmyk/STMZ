@@ -1,0 +1,19 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "note": "3막 적 마스터. gen_images.py → assets/review/act3-enemy-masters-v1/{id}-v1.png. QA → 승인 → assets/masters/{id}/ → 키포즈 보드 → texture 교체. 2막보다 시각적으로 더 강하고 최종 단계다운 위압감.",
+  "negativePrompt": "glossy 3D render, smooth mobile render, clean modern spacecraft, front-facing pose, cropped hull or cannon or blades, multiple separate creatures, humanoid player character, text, logo, watermark, color fringe, recognizable franchise unit copy, #00ff00 on the subject",
+  "globalStyle": "Original ENEMY battle sprite for SLAY THE MONSTARZ (Slay-the-Spire-style dark-fantasy roguelike). Hand-painted dark-fantasy 2D, thick dark outlines, gritty painterly texture, muted palette with luminous accents; menacing, readable silhouette, NOT clean sci-fi. Match the painted tone of existing enemies sentinel_scout / brood_queen.",
+  "globalConstraints": "STRICT SIDE VIEW facing LEFT (toward the player). Full body, centered, generous safe padding, nothing touching the edge. Flat uniform solid #00ff00 chroma background. No text, no logo, no watermark.",
+  "assets": [
+    { "id": "interceptor", "race": "P",
+      "prompt": "The Precision Interceptor, a sleek compact floating Protoss crescent hunter: twin forward phase blades, aged-gold and black relic armor, a single cyan targeting eye, hardened folding shield petals. Fast, predatory, elegant. Tarnished gold with cyan energy." },
+    { "id": "fire_support", "race": "T",
+      "prompt": "The Fire Support Ship, a hovering rusted heavy Terran gunship: broad low hull, paired bombardment turrets, a glowing charged furnace reactor, industrial rivets and exhaust vents. It floats and is a gun platform (distinct from a wheeled marauder). Charcoal and rust with ember-red and white-hot reactor light." },
+    { "id": "abyssal_cluster", "race": "Z",
+      "prompt": "The Abyssal Cluster, ONE readable fused-swarm Zerg silhouette built from several chitin organisms merged into a single mass: many short attacking limbs, corrosive spray sacs, regenerating overlapping carapace. Reads as ONE unit, not scattered creatures. Deep violet and black with acid-yellow biology." },
+    { "id": "battleship_escort", "race": "P", "tier": "elite",
+      "prompt": "The Battleship Escort, an imposing floating Protoss fortress escort (ELITE): layered obsidian-and-gold shield plates, two articulated cannon arms, a reinforced prow, disciplined symmetrical silhouette. Clearly elite — heavier and grander than the interceptor. Deep black with tarnished gold and cyan energy. Keep prow and both cannon arms in frame." },
+    { "id": "interstellar_battleship", "race": "T", "tier": "boss",
+      "prompt": "The Interstellar Battleship, a colossal gothic dreadnought FINAL BOSS in chibi shape language: broad wedge hull, an enormous forward quantum cannon, stacked neutronium armor decks, glowing furnace windows, deep battle scars. The largest, most intimidating enemy in the game. Charcoal and blackened steel with white-hot reactor light and ember-red accents. EXTRA-generous padding so the entire hull and forward cannon stay inside the frame." }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "source_dir": "cwe",
+  "output_dir": "assets\\review\\character-attack-cwe-v1",
+  "count": 20,
+  "passed": 20,
+  "failed": [],
+  "assets": [
+    {
+      "id": "ample",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\ample\\ample_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\ample\\ample_preview.png"
+    },
+    {
+      "id": "bright",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\bright\\bright_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\bright\\bright_preview.png"
+    },
+    {
+      "id": "calm",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\calm\\calm_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\calm\\calm_preview.png"
+    },
+    {
+      "id": "chamchi",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\chamchi\\chamchi_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\chamchi\\chamchi_preview.png"
+    },
+    {
+      "id": "chu",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\chu\\chu_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\chu\\chu_preview.png"
+    },
+    {
+      "id": "fivehundred",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\fivehundred\\fivehundred_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\fivehundred\\fivehundred_preview.png"
+    },
+    {
+      "id": "hm",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\hm\\hm_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\hm\\hm_preview.png"
+    },
+    {
+      "id": "hyeonje",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\hyeonje\\hyeonje_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\hyeonje\\hyeonje_preview.png"
+    },
+    {
+      "id": "jdd",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\jdd\\jdd_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\jdd\\jdd_preview.png"
+    },
+    {
+      "id": "jji",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\jji\\jji_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\jji\\jji_preview.png"
+    },
+    {
+      "id": "killer",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\killer\\killer_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\killer\\killer_preview.png"
+    },
+    {
+      "id": "nangni",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\nangni\\nangni_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\nangni\\nangni_preview.png"
+    },
+    {
+      "id": "rang",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\rang\\rang_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\rang\\rang_preview.png"
+    },
+    {
+      "id": "sample",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\sample\\sample_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\sample\\sample_preview.png"
+    },
+    {
+      "id": "seventytwo",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\seventytwo\\seventytwo_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\seventytwo\\seventytwo_preview.png"
+    },
+    {
+      "id": "song",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\song\\song_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\song\\song_preview.png"
+    },
+    {
+      "id": "soulkey",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\soulkey\\soulkey_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\soulkey\\soulkey_preview.png"
+    },
+    {
+      "id": "sun",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\sun\\sun_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\sun\\sun_preview.png"
+    },
+    {
+      "id": "tyson",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\tyson\\tyson_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\tyson\\tyson_preview.png"
+    },
+    {
+      "id": "zoe",
+      "status": "pass",
+      "sheet": "assets\\review\\character-attack-cwe-v1\\zoe\\zoe_sheet.png",
+      "preview": "assets\\review\\character-attack-cwe-v1\\zoe\\zoe_preview.png"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "layout": {
+    "cols": 2,
+    "rows": 3,
+    "order": [
+      "idle_low",
+      "idle_high",
+      "windup",
+      "release",
+      "recovery",
+      "hit"
+    ]
+  },
+  "note": "Act 2 enemy key-pose review boards. Generate one 2x3 board per enemy from the approved master, process with tools/keypose_board.py, and never wire into the live game before visual approval.",
+  "globalConstraints": "Exactly six equal cells in a clean 2-column by 3-row sprite board, row-major order. One complete enemy per cell. Preserve the approved master's identity, silhouette, part count, palette, materials, rendering style, and left-facing orientation in every cell. Keep scale, camera angle, and ground/hover baseline consistent. Full subject and all weapons, horns, fins, rings, and orbiting parts remain inside each cell with safe padding. Flat uniform solid #00ff00 chroma background only. No labels, text, borders, grid lines, emitted projectiles, impact effects, extra characters, or cropped parts.",
+  "assets": [
+    {
+      "id": "void_stalker",
+      "ref": "assets/masters/void_stalker/void_stalker_master.png",
+      "prompt": "Six poses for the Void Stalker, always facing screen LEFT. (1) idle_low: hover body settles 3% lower, rings level; (2) idle_high: hover body rises 3%, rings gently widen; (3) windup: crescent shell leans slightly right while cyan-violet rings contract and fins brace; (4) release: compact phase-strike lunge toward screen-left, shell and fins extend left, no emitted VFX; (5) recovery: body eases back to center and rings reopen; (6) hit: body tilts and recoils screen-right while every ring and fin remains attached. Preserve one glowing eye, both resonance rings, crescent shell, fin count, and tarnished gold/cyan/violet colors."
+    },
+    {
+      "id": "siege_marauder",
+      "ref": "assets/masters/siege_marauder/siege_marauder_master.png",
+      "prompt": "Six poses for the Siege Marauder, always facing screen LEFT. (1) idle_low: squat stance compresses 3%, cannons steady; (2) idle_high: torso rises 3%, furnace vents breathe; (3) windup: body braces screen-right and both recoil cannons pull back; (4) release: both cannons kick and torso drives screen-left, no muzzle flash or projectile; (5) recovery: barrels and shoulders settle; (6) hit: torso twists screen-right and cannons dip without changing their count. Preserve armor plates, twin cannon construction, furnace vents, limbs, rust-charcoal palette, and ember accents."
+    },
+    {
+      "id": "chitin_brute",
+      "ref": "assets/masters/chitin_brute/chitin_brute_master.png",
+      "prompt": "Six poses for the Chitin Brute, always facing screen LEFT. (1) idle_low: heavy quadruped crouches 3% lower; (2) idle_high: ribcage expands and head rises 3%; (3) windup: body coils screen-right, massive forelimbs dig in and horned head lowers; (4) release: short charging thrust screen-left with forelimbs extended, no dust or emitted VFX; (5) recovery: weight shifts back to the stable stance; (6) hit: head and torso recoil screen-right while all four limbs remain readable. Preserve horn count, plate pattern, acid vents, anatomy, purple-black chitin, acid-yellow details, and magenta accents."
+    },
+    {
+      "id": "resonance_warden",
+      "ref": "assets/masters/resonance_warden/resonance_warden_master.png",
+      "prompt": "Six poses for the elite Resonance Warden, always facing screen LEFT. (1) idle_low: hover body settles 3% lower; (2) idle_high: body rises 3% and shield slabs open slightly; (3) windup: resonance weapon draws screen-right and every shield slab braces inward; (4) release: weapon thrusts screen-left while the body lunges, no emitted wave or projectile; (5) recovery: weapon and orbit return to idle; (6) hit: body tilts screen-right and slabs flare inward. Preserve the exact shield-slab count in every cell, the same weapon, armor construction, single eye, elite mass, black/tarnished-gold palette, and cyan-violet energy."
+    },
+    {
+      "id": "abyssal_charger",
+      "ref": "assets/masters/abyssal_charger/abyssal_charger_master.png",
+      "prompt": "Six poses for the boss Abyssal Charger, always facing screen LEFT. (1) idle_low: enormous low-slung body compresses 3%; (2) idle_high: armored back and magenta sacs rise 3%; (3) windup: body coils screen-right, wedge head drops, and both scythe tusks angle forward; (4) release: short explosive charge screen-left, no dust, projectile, or impact effect; (5) recovery: boss weight drags back to the baseline; (6) hit: armored head and torso recoil screen-right without losing mass. Preserve exactly two complete scythe tusks, all limbs, wedge-shaped head, carapace plates, boss scale, black-purple palette, and abyssal-magenta sacs."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "source": "assets\\review\\enemy-motion-v2\\repair-source\\elite_sentinel-v1.png",
+  "sheet": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\elite_sentinel_keypose_sheet.png",
+  "preview": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\elite_sentinel_keypose_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 512,
+    "height": 342
+  },
+  "frame_size": {
+    "width": 480,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 432,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    117,
+    179,
+    97
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        90,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 90,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.34753,
+      "partial_alpha_pixels": 46771,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        89,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 89,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.35118,
+      "partial_alpha_pixels": 47728,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        106,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 106,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.22724,
+      "partial_alpha_pixels": 23716,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        153,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 153,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.24572,
+      "partial_alpha_pixels": 29188,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        93,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 93,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.34602,
+      "partial_alpha_pixels": 45513,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 480,
+      "height": 480,
+      "bounds": [
+        24,
+        57,
+        456,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 57,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37009,
+      "partial_alpha_pixels": 47226,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-v2\\elite_sentinel\\candidate-v1\\frames\\05_hit.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

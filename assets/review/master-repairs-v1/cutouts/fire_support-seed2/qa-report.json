@@ -1,0 +1,57 @@
+{
+  "source": "assets\\review\\master-repairs-v1\\fire_support-v1.png",
+  "sheet": "assets\\review\\master-repairs-v1\\cutouts\\fire_support-seed2\\fire_support_cutout_sheet.png",
+  "preview": "assets\\review\\master-repairs-v1\\cutouts\\fire_support-seed2\\fire_support_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": false,
+    "content_width": null,
+    "content_height": null,
+    "bottom_margin": null
+  },
+  "key_color": [
+    118,
+    160,
+    88
+  ],
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        34,
+        343,
+        990,
+        679
+      ],
+      "margins": {
+        "left": 34,
+        "right": 34,
+        "top": 343,
+        "bottom": 345
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16629,
+      "partial_alpha_pixels": 26596,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-repairs-v1\\cutouts\\fire_support-seed2\\frames\\00_master.png"
+    }
+  ]
+}

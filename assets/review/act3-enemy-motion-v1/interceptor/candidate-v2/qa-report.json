@@ -1,0 +1,183 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\review\\act3-enemy-motion-v1\\source\\interceptor-v2.png",
+  "sheet": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\interceptor_sheet.png",
+  "preview": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\interceptor_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 336,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    21,
+    226,
+    27
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        232,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 232,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.20672,
+      "partial_alpha_pixels": 35653,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        234,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 234,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.20452,
+      "partial_alpha_pixels": 34998,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        230,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 230,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.17871,
+      "partial_alpha_pixels": 30503,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        334,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 334,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10825,
+      "partial_alpha_pixels": 18632,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        233,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 233,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.20577,
+      "partial_alpha_pixels": 35672,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        196,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 196,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.24039,
+      "partial_alpha_pixels": 40916,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\act3-enemy-motion-v1\\interceptor\\candidate-v2\\frames\\05_hit.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

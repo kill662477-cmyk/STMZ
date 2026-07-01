@@ -1,0 +1,16 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "styleRef": "assets/review/style_anchor_armor.png",
+  "note": "Strict v2 regeneration prompts after identity, gaze, and style re-audit. Generate review candidates only; never overwrite live masters without user approval.",
+  "negativePrompt": "copying the anchor identity, copying JDD face or hair, generic invented face, identity drift, front-facing head, front-facing torso, camera-facing eyes, centered pupils, cross-eyed gaze, looking at viewer, clean flat cartoon, cute smooth cel-shading, simple mobile-chibi, glossy 3D, photoreal pasted face, low detail, baseball jersey, card frame, border, UI, text, logo, watermark, color fringe, extra limbs, two characters, cropped body, cropped weapon, edge contact",
+  "globalStyle": "Reference-preserving CHARACTER battle master for SLAY THE MONSTARZ. Image 1 is a FACELESS armor crop used ONLY as the rendering-style reference: dense hand-painted dark-fantasy brushwork, thick dark outlines, gritty painterly texture, dramatic shaded lighting, chibi combat proportions, and a flat bright-green chroma background. Image 2 is the ONLY FACE AND HAIR IDENTITY reference. Preserve that person's visible face silhouette, cheeks, jaw, eye shape, eyebrows, nose, mouth, hairstyle, bangs, and unique accessories. Integrate the face into exactly the same dense painterly finish as the armor; the face must never look cleaner, smoother, more realistic, more anime-like, or more 3D than the body.",
+  "globalConstraints": "STRICT RIGHT-FACING COMBAT PROFILE. Use a true side view or strongly right-facing 3/4 view: nose, chin, chest, hips, knees, feet, and weapon all point screen RIGHT. Pupils sit at the RIGHT edge of the visible eyes and focus on an off-screen enemy to the right; the far eye is barely visible. Never look at the viewer. One full-body character head-to-toe, large and centered with generous safe padding; all hair, armor, limbs, and weapon fully inside the canvas. Perfectly flat uniform solid #00ff00 background with no floor, cast shadow, gradient, texture, or reflection.",
+  "assets": [
+    {
+      "id": "ample",
+      "ref": "25_ample.png",
+      "race": "T",
+      "prompt": "AMPLE identity lock: round face, full cheeks, soft jaw, large round dark-brown eyes, thick straight dark eyebrows with a slightly furrowed shape, small button-like nose, small full lips, short dark-brown hair with volume on top, swept slightly right, short choppy bangs, hair covering the ears. Eyes must look screen RIGHT at a point just above the weapon barrel, never at camera. TERRAN industrial fighter: heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty mercenary combat stance, subtle navy-white MONSTARZ accents, no baseball jersey."
+    }
+  ]
+}

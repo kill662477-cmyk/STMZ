@@ -1,0 +1,43 @@
+{
+  "layout": {
+    "cols": 2,
+    "rows": 3,
+    "order": [
+      "idle_low",
+      "idle_high",
+      "windup",
+      "release",
+      "recovery",
+      "hit"
+    ]
+  },
+  "note": "Act 3 enemy key-pose review boards. Generate one 2x3 board per enemy from the approved master, process with tools/keypose_board.py, and never wire into the live game before visual approval.",
+  "globalConstraints": "Exactly six equal cells in a clean 2-column by 3-row sprite board, row-major order. One complete enemy per cell. Preserve the approved master's identity, silhouette, part count, palette, materials, rendering style, and screen-left orientation in every cell. Keep scale, camera angle, hover baseline, and perspective consistent. Full subject and every blade, cannon, engine, armor plate, limb, tail, antenna, and exhaust housing remain inside each cell with safe padding. Flat uniform solid #00ff00 chroma background only. No labels, text, borders, grid lines, emitted projectiles, muzzle flashes, smoke trails, impact effects, extra characters, or cropped parts.",
+  "assets": [
+    {
+      "id": "interceptor",
+      "ref": "assets/masters/interceptor/interceptor_master.png",
+      "prompt": "Six poses for the Precision Interceptor, always aimed toward screen LEFT. (1) idle_low: circular hover body settles 3% lower, crescent blade level; (2) idle_high: body rises 3% and rear fins open slightly; (3) windup: ring body rotates a few degrees screen-right while the long cyan crescent blade draws back; (4) release: compact stabbing dash screen-left with the crescent blade leading, no emitted VFX; (5) recovery: blade and ring ease back to the exact idle alignment; (6) hit: circular body tilts and recoils screen-right while every blade and fin remains attached. Preserve the single cyan core, one long lower crescent blade, exact gold shell segments and rear fin count, black-gold materials, and cyan energy seams."
+    },
+    {
+      "id": "fire_support",
+      "ref": "assets/masters/fire_support/fire_support_master.png",
+      "prompt": "Six poses for the Fire Support Ship, always facing screen LEFT. (1) idle_low: long hover hull settles 3% lower with the dorsal cannon level; (2) idle_high: hull rises 3% and engine housings lift slightly; (3) windup: hull braces screen-right, dorsal cannon slides back, and the red reactor brightens without external glow; (4) release: dorsal cannon and nose battery recoil screen-right as the ship thrusts slightly screen-left, no muzzle flash, projectile, sparks, or smoke; (5) recovery: cannon, hull, and engines settle to idle; (6) hit: the complete ship pitches and recoils screen-right without losing armor pieces. Preserve the single dorsal heavy cannon, long armored hull, front nose gun, paired engine housings, pipes, red reactor dome, charcoal steel and rust-red accents."
+    },
+    {
+      "id": "abyssal_cluster",
+      "ref": "assets/masters/abyssal_cluster/abyssal_cluster_master.png",
+      "prompt": "Six poses for the Abyssal Cluster, always facing screen LEFT. (1) idle_low: many-legged body crouches 3% lower and tail plates settle; (2) idle_high: torso rises 3% and dorsal acid sacs expand slightly; (3) windup: body coils screen-right, front claws brace, head lowers, and clustered sacs tighten; (4) release: short swarm-like pounce screen-left with foreclaws extended, no spray, projectile, or detached creatures; (5) recovery: limbs and tail return to the stable stance; (6) hit: head, torso, and plated tail recoil screen-right while every limb and acid sac remains attached. Preserve exact limb count, layered purple-black carapace, long plated tail, clustered yellow-green dorsal sacs, head shape, and acid-yellow markings."
+    },
+    {
+      "id": "battleship_escort",
+      "ref": "assets/masters/battleship_escort/battleship_escort_master.png",
+      "prompt": "Six poses for the Battleship Escort, always pointing screen LEFT. (1) idle_low: long hover hull settles 3% lower; (2) idle_high: hull rises 3% and cyan engine seams brighten slightly; (3) windup: ship braces screen-right, forward prongs draw back, and the side cannon housing charges; (4) release: forward prongs and side cannon kick toward screen-left while the hull recoils a short distance screen-right, no projectile or muzzle flash; (5) recovery: weapon housing and hull return to idle; (6) hit: the intact ship yaws and recoils screen-right without changing its construction. Preserve the long black hull, gold rib count and placement, forked cyan-lit nose, single side cannon pod, rear engine geometry, cyan seams, and exact top-down three-quarter perspective."
+    },
+    {
+      "id": "interstellar_battleship",
+      "ref": "assets/masters/interstellar_battleship/interstellar_battleship_master.png",
+      "prompt": "Six poses for the final boss Interstellar Battleship, always facing screen LEFT. (1) idle_low: enormous horizontal hull settles 2% lower, quantum main cannon stable; (2) idle_high: hull rises 2% and red window rows brighten slightly; (3) windup: the complete ship braces screen-right, the huge white main-cannon barrel retracts a little, and stacked armored decks lock down; (4) release: main cannon thrusts and the entire massive hull recoils screen-right, no beam, projectile, muzzle flash, smoke, or detached plates; (5) recovery: barrel and multi-deck hull return slowly to the idle alignment; (6) hit: the entire battleship pitches and recoils screen-right while retaining its full mass. Preserve the exact huge white barrel, stacked charcoal armored decks, red window rows, twin circular side ports, underside fins, rear hull shape, boss scale, and every structural segment."
+    }
+  ]
+}

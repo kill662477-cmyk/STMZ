@@ -1,0 +1,57 @@
+{
+  "source": "assets\\masters\\abyssal_cluster\\abyssal_cluster_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\abyssal_cluster-tuned2\\abyssal_cluster_cutout_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\abyssal_cluster-tuned2\\abyssal_cluster_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    127,
+    172,
+    110
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        62,
+        208,
+        962,
+        976
+      ],
+      "margins": {
+        "left": 62,
+        "right": 62,
+        "top": 208,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.38657,
+      "partial_alpha_pixels": 102930,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\abyssal_cluster-tuned2\\frames\\00_master.png"
+    }
+  ]
+}

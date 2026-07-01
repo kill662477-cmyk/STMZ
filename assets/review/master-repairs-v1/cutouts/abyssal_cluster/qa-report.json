@@ -1,0 +1,62 @@
+{
+  "source": "assets\\review\\master-repairs-v1\\abyssal_cluster-v1.png",
+  "sheet": "assets\\review\\master-repairs-v1\\cutouts\\abyssal_cluster\\abyssal_cluster_cutout_sheet.png",
+  "preview": "assets\\review\\master-repairs-v1\\cutouts\\abyssal_cluster\\abyssal_cluster_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": false,
+    "content_width": null,
+    "content_height": null,
+    "bottom_margin": null
+  },
+  "key_color": [
+    122,
+    165,
+    103
+  ],
+  "safe_margin": 8,
+  "status": "fail",
+  "frames": [
+    {
+      "status": "fail",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        1,
+        1,
+        1023,
+        1023
+      ],
+      "margins": {
+        "left": 1,
+        "right": 1,
+        "top": 1,
+        "bottom": 1
+      },
+      "unsafe_margins": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "edge_pixels": 0,
+      "visible_coverage": 0.25816,
+      "partial_alpha_pixels": 125075,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-repairs-v1\\cutouts\\abyssal_cluster\\frames\\00_master.png"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "assets\\review\\master-repairs-v1\\soulkey-v1.png",
+  "sheet": "assets\\review\\master-repairs-v1\\cutouts\\soulkey\\soulkey_cutout_sheet.png",
+  "preview": "assets\\review\\master-repairs-v1\\cutouts\\soulkey\\soulkey_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1344,
+    "height": 768
+  },
+  "frame_size": {
+    "width": 1344,
+    "height": 768
+  },
+  "normalization": {
+    "enabled": false,
+    "content_width": null,
+    "content_height": null,
+    "bottom_margin": null
+  },
+  "key_color": [
+    32,
+    204,
+    0
+  ],
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1344,
+      "height": 768,
+      "bounds": [
+        306,
+        42,
+        1034,
+        741
+      ],
+      "margins": {
+        "left": 306,
+        "right": 310,
+        "top": 42,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.24477,
+      "partial_alpha_pixels": 2673,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-repairs-v1\\cutouts\\soulkey\\frames\\00_master.png"
+    }
+  ]
+}

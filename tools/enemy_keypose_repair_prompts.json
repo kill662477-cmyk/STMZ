@@ -1,0 +1,13 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "globalStyle": "Precision correction of an existing SLAY THE MONSTARZ animation key-pose board. Preserve the six approved subject drawings, their order, identity, anatomy, equipment, palette, and hand-painted rendering.",
+  "globalConstraints": "Keep exactly six poses in the same invisible 2-column by 3-row arrangement. Replace every visible divider, grid line, border, and dark gutter artifact with flat uniform solid pure #00ff00. Keep wide green spacing between cells and all silhouettes fully inside their cells. No labels, text, logo, watermark, floor, cast shadow, crop, or overlap.",
+  "negativePrompt": "black grid line, divider, panel border, frame, label, caption, text, logo, watermark, redesigned character, changed armor, fewer than nine shield shards, more than nine shield shards, missing shield shard, merged shield shards, crop, overlap",
+  "assets": [
+    {
+      "id": "elite_sentinel",
+      "ref": "assets/review/enemy-motion-v2/repair-source/elite_sentinel-v1.png",
+      "prompt": "Correct the Elite Sentinel six-pose board so EVERY one of the six cells contains exactly NINE separate orbiting shield shards around the same golden warrior: one top-center shard, two upper-side shards, two middle-side shards, two lower-side shards, and two small bottom-center shards. Restore missing shards in the middle and hit poses without changing those poses. Keep exactly two energy blades, the cyan eye and glow, the same six-pose order, and uninterrupted flat #00ff00 gutters. No visible grid. Exactly nine shards in every cell, never fewer or more."
+    }
+  ]
+}

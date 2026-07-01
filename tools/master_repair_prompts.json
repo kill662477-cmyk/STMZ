@@ -1,0 +1,28 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "globalStyle": "Precision repair of an approved SLAY THE MONSTARZ battle master. The provided image is the strict identity, anatomy, equipment, silhouette, palette, and hand-painted rendering reference. Preserve the subject exactly; this is a framing/background correction, not a redesign.",
+  "globalConstraints": "One complete subject only, full silhouette visible with generous safe padding on all four sides. Flat uniform solid pure #00ff00 background with no texture, noise, vignette, gradient, floor, cast shadow, smoke touching an edge, text, logo, watermark, border, or UI. Keep the original screen direction and camera angle.",
+  "negativePrompt": "redesign, changed face, changed armor, changed weapon, extra limbs, missing parts, crop, edge contact, textured green background, olive background, gradient, scenery, floor, cast shadow, text, logo, watermark, glossy 3D",
+  "assets": [
+    {
+      "id": "soulkey",
+      "ref": "assets/masters/soulkey/soulkey_master.png",
+      "prompt": "Outpaint and reframe the approved Soulkey character so the entire hair silhouette, head, weapon, armor, and feet are fully visible. Preserve the recognizable human face with round glasses, hairstyle, organic Zerg bio-armor, bone blade, colors, and right-facing pose. Scale the complete character to about 76% of the canvas height and center it with wide uninterrupted green padding."
+    },
+    {
+      "id": "fire_support",
+      "ref": "assets/masters/fire_support/fire_support_master.png",
+      "prompt": "Reframe the approved Fire Support Ship so the complete hull, nose, turret, engines, sparks, and a short contained exhaust plume are fully visible. Preserve the exact rusted Terran gunship design and left-facing orientation. Scale the complete ship and all attached effects to about 72% of the canvas width, leaving wide green padding especially on the right."
+    },
+    {
+      "id": "abyssal_cluster",
+      "ref": "assets/masters/abyssal_cluster/abyssal_cluster_master.png",
+      "prompt": "Keep the approved Abyssal Cluster creature exactly unchanged. Replace only the noisy pale-green backdrop with perfectly flat uniform pure #00ff00. Preserve every limb, dorsal plate, eye pod, yellow organ, outline, and the left-facing silhouette. Center at the same scale with generous padding."
+    },
+    {
+      "id": "elite_sentinel",
+      "ref": "assets/masters/elite_sentinel/elite_sentinel_master.png",
+      "prompt": "Keep the approved Elite Sentinel exactly unchanged, including both energy blades, armor construction, cyan eye, and every separate orbiting shield shard. Replace only the textured olive-green backdrop with perfectly flat uniform pure #00ff00 while preserving the cyan glow. Center the entire subject and all shards with generous padding."
+    }
+  ]
+}

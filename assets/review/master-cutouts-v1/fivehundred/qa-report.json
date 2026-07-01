@@ -1,0 +1,58 @@
+{
+  "source": "assets\\masters\\fivehundred\\fivehundred_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\fivehundred\\fivehundred_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\fivehundred\\fivehundred_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 864,
+    "height": 1184
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    35,
+    200,
+    4
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        157,
+        76,
+        867,
+        976
+      ],
+      "margins": {
+        "left": 157,
+        "right": 157,
+        "top": 76,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.32109,
+      "partial_alpha_pixels": 337597,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\fivehundred\\frames\\00_master.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

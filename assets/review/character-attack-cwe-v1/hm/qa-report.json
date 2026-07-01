@@ -1,0 +1,735 @@
+{
+  "id": "hm",
+  "source": "cwe\\hm.png",
+  "sheet": "assets\\review\\character-attack-cwe-v1\\hm\\hm_sheet.png",
+  "preview": "assets\\review\\character-attack-cwe-v1\\hm\\hm_preview.png",
+  "grid": {
+    "cols": 5,
+    "rows": 5,
+    "count": 25
+  },
+  "background_mode": "baked-checkerboard",
+  "extraction": {
+    "detected_main_components": 25,
+    "anchors": {
+      "x": [
+        131.312,
+        375.432,
+        619.552,
+        863.671,
+        1107.791
+      ],
+      "y": [
+        169.657,
+        408.196,
+        646.734,
+        885.272,
+        1123.81
+      ],
+      "x_stride": 244.12,
+      "y_stride": 238.538
+    },
+    "removed_detached_neutral_components": 0
+  },
+  "normalization": {
+    "frame_size": 320,
+    "content_height": 210,
+    "bottom_margin": 28,
+    "source_reference_height": 261.0,
+    "scale": 0.804598,
+    "alignment": {
+      "row_body_centers": [
+        165.988,
+        154.588,
+        170.245,
+        156.687,
+        163.328
+      ],
+      "horizontal_corrections": [
+        -2.254,
+        0.0,
+        5.7,
+        -2.134,
+        2.629,
+        -8.401,
+        -5.203,
+        0.0,
+        0.137,
+        2.949,
+        -0.431,
+        -4.517,
+        0.0,
+        7.344,
+        0.356,
+        8.216,
+        0.0,
+        -12.0,
+        12.0,
+        -0.965,
+        -0.061,
+        0.0,
+        0.862,
+        -0.031,
+        0.278
+      ],
+      "body_bottoms": [
+        279.0,
+        278.0,
+        277.0,
+        279.0,
+        278.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        261.0,
+        262.0,
+        262.0,
+        262.0,
+        261.0,
+        248.0,
+        243.0,
+        246.0,
+        246.0,
+        247.0,
+        270.0,
+        269.0,
+        269.0,
+        269.81,
+        269.0
+      ],
+      "vertical_corrections": [
+        36.736,
+        36.736,
+        37.736,
+        36.736,
+        36.736,
+        35.736,
+        35.736,
+        35.736,
+        35.736,
+        35.736,
+        50.736,
+        49.736,
+        49.736,
+        49.736,
+        50.736,
+        60.736,
+        64.736,
+        62.736,
+        62.736,
+        61.736,
+        43.736,
+        44.736,
+        44.736,
+        43.736,
+        44.736
+      ]
+    }
+  },
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        85,
+        212,
+        295
+      ],
+      "margins": {
+        "left": 94,
+        "right": 108,
+        "top": 85,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14813,
+      "partial_alpha_pixels": 3507,
+      "index": 0,
+      "name": "frame_00",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\00_frame_00.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        85,
+        212,
+        295
+      ],
+      "margins": {
+        "left": 94,
+        "right": 108,
+        "top": 85,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14757,
+      "partial_alpha_pixels": 3506,
+      "index": 1,
+      "name": "frame_01",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\01_frame_01.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        85,
+        213,
+        294
+      ],
+      "margins": {
+        "left": 97,
+        "right": 107,
+        "top": 85,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14737,
+      "partial_alpha_pixels": 3477,
+      "index": 2,
+      "name": "frame_02",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\02_frame_02.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        96,
+        84,
+        211,
+        295
+      ],
+      "margins": {
+        "left": 96,
+        "right": 109,
+        "top": 84,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1462,
+      "partial_alpha_pixels": 3520,
+      "index": 3,
+      "name": "frame_03",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\03_frame_03.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        86,
+        212,
+        295
+      ],
+      "margins": {
+        "left": 97,
+        "right": 108,
+        "top": 86,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.14643,
+      "partial_alpha_pixels": 3538,
+      "index": 4,
+      "name": "frame_04",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\04_frame_04.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        93,
+        117,
+        209,
+        296
+      ],
+      "margins": {
+        "left": 93,
+        "right": 111,
+        "top": 117,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11505,
+      "partial_alpha_pixels": 2949,
+      "index": 5,
+      "name": "frame_05",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\05_frame_05.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        91,
+        116,
+        210,
+        296
+      ],
+      "margins": {
+        "left": 91,
+        "right": 110,
+        "top": 116,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11621,
+      "partial_alpha_pixels": 3031,
+      "index": 6,
+      "name": "frame_06",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\06_frame_06.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        91,
+        117,
+        209,
+        296
+      ],
+      "margins": {
+        "left": 91,
+        "right": 111,
+        "top": 117,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11514,
+      "partial_alpha_pixels": 3044,
+      "index": 7,
+      "name": "frame_07",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\07_frame_07.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        117,
+        210,
+        296
+      ],
+      "margins": {
+        "left": 92,
+        "right": 110,
+        "top": 117,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11489,
+      "partial_alpha_pixels": 3072,
+      "index": 8,
+      "name": "frame_08",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\08_frame_08.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        92,
+        117,
+        210,
+        296
+      ],
+      "margins": {
+        "left": 92,
+        "right": 110,
+        "top": 117,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1151,
+      "partial_alpha_pixels": 3027,
+      "index": 9,
+      "name": "frame_09",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\09_frame_09.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        86,
+        143,
+        219,
+        298
+      ],
+      "margins": {
+        "left": 86,
+        "right": 101,
+        "top": 143,
+        "bottom": 22
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11009,
+      "partial_alpha_pixels": 2844,
+      "index": 10,
+      "name": "frame_10",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\10_frame_10.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        81,
+        140,
+        224,
+        296
+      ],
+      "margins": {
+        "left": 81,
+        "right": 96,
+        "top": 140,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10952,
+      "partial_alpha_pixels": 2808,
+      "index": 11,
+      "name": "frame_11",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\11_frame_11.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        87,
+        139,
+        222,
+        297
+      ],
+      "margins": {
+        "left": 87,
+        "right": 98,
+        "top": 139,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10589,
+      "partial_alpha_pixels": 2701,
+      "index": 12,
+      "name": "frame_12",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\12_frame_12.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        85,
+        140,
+        222,
+        297
+      ],
+      "margins": {
+        "left": 85,
+        "right": 98,
+        "top": 140,
+        "bottom": 23
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10595,
+      "partial_alpha_pixels": 2739,
+      "index": 13,
+      "name": "frame_13",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\13_frame_13.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        78,
+        140,
+        224,
+        298
+      ],
+      "margins": {
+        "left": 78,
+        "right": 96,
+        "top": 140,
+        "bottom": 22
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10817,
+      "partial_alpha_pixels": 2809,
+      "index": 14,
+      "name": "frame_14",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\14_frame_14.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        94,
+        140,
+        268,
+        293
+      ],
+      "margins": {
+        "left": 94,
+        "right": 52,
+        "top": 140,
+        "bottom": 27
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10462,
+      "partial_alpha_pixels": 2455,
+      "index": 15,
+      "name": "frame_15",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\15_frame_15.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        60,
+        145,
+        243,
+        296
+      ],
+      "margins": {
+        "left": 60,
+        "right": 77,
+        "top": 145,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.133,
+      "partial_alpha_pixels": 4418,
+      "index": 16,
+      "name": "frame_16",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\16_frame_16.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        65,
+        142,
+        254,
+        294
+      ],
+      "margins": {
+        "left": 65,
+        "right": 66,
+        "top": 142,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.15783,
+      "partial_alpha_pixels": 5006,
+      "index": 17,
+      "name": "frame_17",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\17_frame_17.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        84,
+        145,
+        274,
+        294
+      ],
+      "margins": {
+        "left": 84,
+        "right": 46,
+        "top": 145,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11996,
+      "partial_alpha_pixels": 3817,
+      "index": 18,
+      "name": "frame_18",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\18_frame_18.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        57,
+        144,
+        253,
+        294
+      ],
+      "margins": {
+        "left": 57,
+        "right": 67,
+        "top": 144,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1054,
+      "partial_alpha_pixels": 3748,
+      "index": 19,
+      "name": "frame_19",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\19_frame_19.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        99,
+        105,
+        205,
+        295
+      ],
+      "margins": {
+        "left": 99,
+        "right": 115,
+        "top": 105,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12194,
+      "partial_alpha_pixels": 3065,
+      "index": 20,
+      "name": "frame_20",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\20_frame_20.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        96,
+        107,
+        205,
+        295
+      ],
+      "margins": {
+        "left": 96,
+        "right": 115,
+        "top": 107,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12077,
+      "partial_alpha_pixels": 3101,
+      "index": 21,
+      "name": "frame_21",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\21_frame_21.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        98,
+        107,
+        205,
+        295
+      ],
+      "margins": {
+        "left": 98,
+        "right": 115,
+        "top": 107,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12016,
+      "partial_alpha_pixels": 3123,
+      "index": 22,
+      "name": "frame_22",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\22_frame_22.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        98,
+        107,
+        205,
+        294
+      ],
+      "margins": {
+        "left": 98,
+        "right": 115,
+        "top": 107,
+        "bottom": 26
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.12025,
+      "partial_alpha_pixels": 3133,
+      "index": 23,
+      "name": "frame_23",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\23_frame_23.png"
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "height": 320,
+      "bounds": [
+        97,
+        108,
+        205,
+        295
+      ],
+      "margins": {
+        "left": 97,
+        "right": 115,
+        "top": 108,
+        "bottom": 25
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11948,
+      "partial_alpha_pixels": 3077,
+      "index": 24,
+      "name": "frame_24",
+      "file": "assets\\review\\character-attack-cwe-v1\\hm\\frames\\24_frame_24.png"
+    }
+  ]
+}

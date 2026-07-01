@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\masters\\sentinel_scout\\sentinel_scout_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\sentinel_scout\\sentinel_scout_cutout_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\sentinel_scout\\sentinel_scout_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    9,
+    225,
+    1
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        107,
+        76,
+        917,
+        976
+      ],
+      "margins": {
+        "left": 107,
+        "right": 107,
+        "top": 76,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.27965,
+      "partial_alpha_pixels": 20643,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\sentinel_scout\\frames\\00_master.png"
+    }
+  ]
+}

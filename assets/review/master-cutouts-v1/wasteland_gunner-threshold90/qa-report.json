@@ -1,0 +1,57 @@
+{
+  "source": "assets\\masters\\wasteland_gunner\\wasteland_gunner_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\wasteland_gunner-threshold90\\wasteland_gunner_cutout_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\wasteland_gunner-threshold90\\wasteland_gunner_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": false,
+    "content_width": null,
+    "content_height": null,
+    "bottom_margin": null
+  },
+  "key_color": [
+    123,
+    153,
+    100
+  ],
+  "safe_margin": 8,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        122,
+        208,
+        780,
+        857
+      ],
+      "margins": {
+        "left": 122,
+        "right": 244,
+        "top": 208,
+        "bottom": 167
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16908,
+      "partial_alpha_pixels": 29095,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\wasteland_gunner-threshold90\\frames\\00_master.png"
+    }
+  ]
+}

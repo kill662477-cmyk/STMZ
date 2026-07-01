@@ -1,0 +1,177 @@
+{
+  "source": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\source\\brood_queen_keypose_board_safe_source.png",
+  "sheet": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\brood_queen_motion_sheet.png",
+  "preview": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\brood_queen_motion_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "frame_size": {
+    "width": 640,
+    "height": 384
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 560,
+    "content_height": 300,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    26,
+    211,
+    22
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 640,
+      "height": 384,
+      "bounds": [
+        75,
+        60,
+        563,
+        360
+      ],
+      "margins": {
+        "left": 75,
+        "right": 77,
+        "top": 60,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37211,
+      "partial_alpha_pixels": 93467,
+      "index": 0,
+      "name": "idle_inhale",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\frames\\00_idle_inhale.png"
+    },
+    {
+      "status": "pass",
+      "width": 640,
+      "height": 384,
+      "bounds": [
+        70,
+        60,
+        569,
+        360
+      ],
+      "margins": {
+        "left": 70,
+        "right": 71,
+        "top": 60,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.38526,
+      "partial_alpha_pixels": 96683,
+      "index": 1,
+      "name": "idle_exhale",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\frames\\01_idle_exhale.png"
+    },
+    {
+      "status": "pass",
+      "width": 640,
+      "height": 384,
+      "bounds": [
+        60,
+        60,
+        579,
+        360
+      ],
+      "margins": {
+        "left": 60,
+        "right": 61,
+        "top": 60,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37656,
+      "partial_alpha_pixels": 94529,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\frames\\02_windup.png"
+    },
+    {
+      "status": "pass",
+      "width": 640,
+      "height": 384,
+      "bounds": [
+        64,
+        60,
+        575,
+        360
+      ],
+      "margins": {
+        "left": 64,
+        "right": 65,
+        "top": 60,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.38488,
+      "partial_alpha_pixels": 97056,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\frames\\03_release.png"
+    },
+    {
+      "status": "pass",
+      "width": 640,
+      "height": 384,
+      "bounds": [
+        73,
+        60,
+        567,
+        360
+      ],
+      "margins": {
+        "left": 73,
+        "right": 73,
+        "top": 60,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37798,
+      "partial_alpha_pixels": 95224,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\frames\\04_recovery.png"
+    },
+    {
+      "status": "pass",
+      "width": 640,
+      "height": 384,
+      "bounds": [
+        69,
+        60,
+        571,
+        360
+      ],
+      "margins": {
+        "left": 69,
+        "right": 69,
+        "top": 60,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.37392,
+      "partial_alpha_pixels": 94378,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\game-ready\\frames\\05_hit.png"
+    }
+  ]
+}

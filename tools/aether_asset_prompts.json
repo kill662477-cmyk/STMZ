@@ -1,0 +1,43 @@
+{
+  "defaultModel": "GPT Image 1.5",
+  "negativePrompt": "glossy 3D render, mobile-game render, realistic proportions, frontal camera pose, baseball jersey, card frame, UI, text, logo, watermark, color fringe",
+  "globalStyle": "Original 2D game art for SLAY THE MONSTARZ, a Slay-the-Spire-style turn-based roguelike deckbuilder. HAND-PAINTED 2D illustration in the tone of Slay the Spire: painterly brushwork, thick dark outlines, dark and muted dark-fantasy palette with only a few saturated accent colors, dramatic side lighting, slightly gritty texture. Strong readable silhouette at small battle size. Absolutely NOT glossy 3D, NOT a smooth mobile-game render.",
+  "globalConstraints": "Crisp clean edges with no color fringe. No card frame, no UI, no text, no logo, no watermark.",
+  "assets": [
+    {
+      "id": "jdd",
+      "file": "jdd_battle.png",
+      "kind": "character",
+      "race": "T",
+      "ref": "23_jdd.png",
+      "transparent": true,
+      "fit": "contain",
+      "prompt": "STRICT SIDE VIEW battle sprite. Her whole body and head are turned to face the RIGHT side of the image (she faces right toward off-screen enemies), shown from a three-quarter-back side angle like a side-on RPG battler. She is NOT looking at the camera, NOT frontal — we mostly see her side/back-right. Her weapon points to the right. A young woman with long dark wavy hair, keeping the facial identity and hairstyle from the reference image so she stays recognizable in profile. CHIBI proportions (large head, small body). Reimagined as a Terran-style industrial combat fighter: rusty heavy riveted steel plate armor, exhaust vents, worn utilitarian metal, holding an original chunky sci-fi firearm, gritty mercenary look. Subtly weave in MONSTARZ team cues (a small jersey number and a tiny team emblem on the armor, navy-and-white accent colors) WITHOUT an actual baseball jersey. Standing battle-ready idle pose, full body head to feet, centered."
+    },
+    {
+      "id": "sentinel_scout",
+      "file": "sentinel_scout.png",
+      "kind": "enemy",
+      "race": "P",
+      "transparent": true,
+      "fit": "contain",
+      "prompt": "STRICT SIDE VIEW facing LEFT (toward the player on the left side). Original normal enemy, Protoss-inspired (P faction) lightweight reconnaissance sentinel: a hovering slender floating unit with sleek symmetrical plating, glowing teal-and-gold energy lines, a few small floating shield shards, a single glowing sensor eye, ancient carved-relic texture (NOT glossy sci-fi). Stylized slightly chunky proportions to fit a chibi cast, but eerie and menacing. Mid-tier scout silhouette, clearly smaller than a boss. Full body, centered, facing left."
+    },
+    {
+      "id": "brood_queen",
+      "file": "brood_queen.png",
+      "kind": "boss",
+      "race": "Z",
+      "transparent": true,
+      "fit": "contain",
+      "prompt": "STRICT SIDE VIEW facing LEFT (toward the player on the left side). BOSS-SCALE, clearly much larger and more imposing than a normal enemy. Original boss, Zerg-inspired (Z faction) brood queen: a large asymmetric biomechanical creature with segmented chitin carapace, bony spines, thick muscular limbs, a swollen brood sac, a menacing fanged maw, dripping acid. Dark monstrous bio tone, sickly green and purple accents. Stylized to fit a chibi cast but threatening and grand. Full body, centered, facing left, high-detail boss quality."
+    },
+    {
+      "id": "stage_bg_act1",
+      "file": "stage_bg_act1.png",
+      "kind": "background",
+      "transparent": false,
+      "prompt": "WIDE CINEMATIC 16:9 HORIZONTAL PANORAMIC landscape background (much wider than tall) for a Slay-the-Spire-style turn-based battler stage. A derelict dark sci-fi battlefield / ruined industrial outpost at dusk: a cracked stone-and-metal ground plane across the foreground where fighters stand, scattered wreckage, broken pillars and twisted metal at the left and right edges, distant hazy silhouettes of ruins, a moody dark sky with faint teal and amber glow, atmospheric fog and depth. HAND-PAINTED 2D illustration in Slay the Spire dark-fantasy tone: painterly brushwork, dark muted palette, dramatic dim lighting, slightly gritty. IMPORTANT: keep the CENTER and LOWER-MIDDLE area open, uncluttered and darker so characters read clearly on top; push detail to the edges and background. No characters, no creatures, no figures, no UI, no text, no watermark."
+    }
+  ]
+}

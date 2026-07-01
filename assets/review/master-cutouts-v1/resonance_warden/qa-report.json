@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\silve\\OneDrive\\Desktop\\slay-the-monstarz\\assets\\masters\\resonance_warden\\resonance_warden_master.png",
+  "sheet": "assets\\review\\master-cutouts-v1\\resonance_warden\\resonance_warden_cutout_sheet.png",
+  "preview": "assets\\review\\master-cutouts-v1\\resonance_warden\\resonance_warden_cutout_preview.png",
+  "grid": {
+    "cols": 1,
+    "rows": 1,
+    "count": 1
+  },
+  "source_frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame_size": {
+    "width": 1024,
+    "height": 1024
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 900,
+    "content_height": 900,
+    "bottom_margin": 48
+  },
+  "key_color": [
+    129,
+    187,
+    113
+  ],
+  "safe_margin": 24,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 1024,
+      "height": 1024,
+      "bounds": [
+        62,
+        89,
+        962,
+        976
+      ],
+      "margins": {
+        "left": 62,
+        "right": 62,
+        "top": 89,
+        "bottom": 48
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.33413,
+      "partial_alpha_pixels": 90002,
+      "index": 0,
+      "name": "master",
+      "file": "assets\\review\\master-cutouts-v1\\resonance_warden\\frames\\00_master.png"
+    }
+  ]
+}

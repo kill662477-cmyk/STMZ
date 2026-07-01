@@ -1,0 +1,23 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "globalStyle": "Production animation key-pose sprite board for SLAY THE MONSTARZ. The input image is the strict approved identity, anatomy, equipment, silhouette, palette, and hand-painted dark-fantasy rendering reference. Preserve the exact same subject in every cell; pose changes only, never redesign.",
+  "globalConstraints": "Create exactly six separate full-body drawings on one square board arranged in an invisible 2-column by 3-row grid. Read left-to-right, top row then middle row then bottom row: idle low, idle high, attack wind-up, attack release, recovery, hit reaction. Every pose faces screen-left at identical scale and camera angle. Keep each complete silhouette centered inside its own cell with wide uninterrupted gutters and at least 12% padding. Flat uniform solid pure #00ff00 across the board and gutters. No visible grid, labels, text, logo, watermark, floor, cast shadow, emitted projectile, explosion, smoke, speed lines, motion blur, overlap, crop, or edge contact.",
+  "negativePrompt": "redesign, different armor, different weapon, changed colors, extra limbs, missing parts, multiple character designs, front view, grid lines, panel borders, labels, captions, text, logo, watermark, projectile, explosion, smoke, cast shadow, crop, edge contact, glossy 3D",
+  "assets": [
+    {
+      "id": "wasteland_gunner",
+      "ref": "assets/review/master-cutouts-v1/wasteland_gunner/wasteland_gunner_cutout_sheet.png",
+      "prompt": "Animate the approved Wasteland Gunner with the exact same helmet, armor plates, shell bandolier, and twin-barrel autogun in all six cells. Poses: (1) idle low, knees compressed 3% and gun steady; (2) idle high, torso raised 3%; (3) ranged wind-up, shoulders brace and barrels pull slightly back; (4) firing release, torso recoils and barrels kick back, but no muzzle flash or projectile; (5) recovery, weapon settles forward; (6) hit reaction, torso twists right and gun dips. Keep the same left-facing orientation, part count, proportions, and gritty charcoal/rust palette."
+    },
+    {
+      "id": "acid_stalker",
+      "ref": "assets/review/master-cutouts-v1/acid_stalker/acid_stalker_cutout_sheet.png",
+      "prompt": "Animate the approved Acid Stalker with the exact same serpentine body, clawed legs, segmented chitin, acid maw, spine launchers, and single eye in every cell. Poses: (1) idle low crouch; (2) idle high with breathing expansion; (3) spine-shot wind-up, torso coils and launchers flex back; (4) release, head and launchers snap toward screen-left, no projectile or acid effect; (5) recovery, body settles; (6) hit reaction, head recoils right and front claws lift. Preserve the purple-black chitin, acid-yellow details, anatomy, and low predatory silhouette."
+    },
+    {
+      "id": "elite_sentinel",
+      "ref": "assets/review/master-cutouts-v1/elite_sentinel/elite_sentinel_cutout_sheet.png",
+      "prompt": "Animate the approved Elite Sentinel with the exact same golden armor, cyan eye, two energy blades, and every separate orbiting shield shard in all six cells. Poses: (1) idle low hover; (2) idle high hover; (3) attack wind-up, body leans right and both blades draw back; (4) release, body lunges screen-left and blades thrust forward, no emitted VFX; (5) recovery, body recoils and orbit settles; (6) hit reaction, body tilts right and shields flare inward. Preserve shard count, armor construction, cyan glow, camera angle, and left-facing silhouette."
+    }
+  ]
+}

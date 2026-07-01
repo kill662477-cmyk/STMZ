@@ -1,0 +1,167 @@
+{
+  "source": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\source\\sentinel_scout_keypose_board_safe_source.png",
+  "sheet": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\sentinel_scout_keypose_sheet.png",
+  "preview": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\sentinel_scout_keypose_preview.png",
+  "grid": {
+    "cols": 3,
+    "rows": 2,
+    "count": 6
+  },
+  "frame_size": {
+    "width": 418,
+    "height": 627
+  },
+  "key_color": [
+    18,
+    213,
+    22
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 418,
+      "height": 627,
+      "bounds": [
+        99,
+        195,
+        361,
+        485
+      ],
+      "margins": {
+        "left": 99,
+        "right": 57,
+        "top": 195,
+        "bottom": 142
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.11595,
+      "partial_alpha_pixels": 28667,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\frames\\00_idle_low.png"
+    },
+    {
+      "status": "pass",
+      "width": 418,
+      "height": 627,
+      "bounds": [
+        86,
+        193,
+        336,
+        479
+      ],
+      "margins": {
+        "left": 86,
+        "right": 82,
+        "top": 193,
+        "bottom": 148
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10931,
+      "partial_alpha_pixels": 26945,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\frames\\01_idle_high.png"
+    },
+    {
+      "status": "pass",
+      "width": 418,
+      "height": 627,
+      "bounds": [
+        59,
+        198,
+        313,
+        475
+      ],
+      "margins": {
+        "left": 59,
+        "right": 105,
+        "top": 198,
+        "bottom": 152
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10639,
+      "partial_alpha_pixels": 26211,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\frames\\02_windup.png"
+    },
+    {
+      "status": "pass",
+      "width": 418,
+      "height": 627,
+      "bounds": [
+        101,
+        128,
+        348,
+        409
+      ],
+      "margins": {
+        "left": 101,
+        "right": 70,
+        "top": 128,
+        "bottom": 218
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1044,
+      "partial_alpha_pixels": 25814,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\frames\\03_release.png"
+    },
+    {
+      "status": "pass",
+      "width": 418,
+      "height": 627,
+      "bounds": [
+        82,
+        128,
+        327,
+        405
+      ],
+      "margins": {
+        "left": 82,
+        "right": 91,
+        "top": 128,
+        "bottom": 222
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10252,
+      "partial_alpha_pixels": 25371,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\frames\\04_recovery.png"
+    },
+    {
+      "status": "pass",
+      "width": 418,
+      "height": 627,
+      "bounds": [
+        55,
+        132,
+        310,
+        403
+      ],
+      "margins": {
+        "left": 55,
+        "right": 108,
+        "top": 132,
+        "bottom": 224
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.10091,
+      "partial_alpha_pixels": 24948,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\sentinel_scout\\candidate-safe\\frames\\05_hit.png"
+    }
+  ]
+}

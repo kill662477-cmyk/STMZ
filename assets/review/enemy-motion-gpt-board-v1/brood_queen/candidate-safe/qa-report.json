@@ -1,0 +1,167 @@
+{
+  "source": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\source\\brood_queen_keypose_board_safe_source.png",
+  "sheet": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\brood_queen_keypose_sheet.png",
+  "preview": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\brood_queen_keypose_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "key_color": [
+    26,
+    211,
+    22
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 627,
+      "height": 418,
+      "bounds": [
+        138,
+        110,
+        541,
+        357
+      ],
+      "margins": {
+        "left": 138,
+        "right": 86,
+        "top": 110,
+        "bottom": 61
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.2332,
+      "partial_alpha_pixels": 60339,
+      "index": 0,
+      "name": "idle_inhale",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\frames\\00_idle_inhale.png"
+    },
+    {
+      "status": "pass",
+      "width": 627,
+      "height": 418,
+      "bounds": [
+        115,
+        129,
+        489,
+        354
+      ],
+      "margins": {
+        "left": 115,
+        "right": 138,
+        "top": 129,
+        "bottom": 64
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.19959,
+      "partial_alpha_pixels": 51686,
+      "index": 1,
+      "name": "idle_exhale",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\frames\\01_idle_exhale.png"
+    },
+    {
+      "status": "pass",
+      "width": 627,
+      "height": 418,
+      "bounds": [
+        158,
+        86,
+        547,
+        311
+      ],
+      "margins": {
+        "left": 158,
+        "right": 80,
+        "top": 86,
+        "bottom": 107
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.19489,
+      "partial_alpha_pixels": 50474,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\frames\\02_windup.png"
+    },
+    {
+      "status": "pass",
+      "width": 627,
+      "height": 418,
+      "bounds": [
+        117,
+        99,
+        468,
+        305
+      ],
+      "margins": {
+        "left": 117,
+        "right": 159,
+        "top": 99,
+        "bottom": 113
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16703,
+      "partial_alpha_pixels": 43293,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\frames\\03_release.png"
+    },
+    {
+      "status": "pass",
+      "width": 627,
+      "height": 418,
+      "bounds": [
+        180,
+        49,
+        514,
+        252
+      ],
+      "margins": {
+        "left": 180,
+        "right": 113,
+        "top": 49,
+        "bottom": 166
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.1592,
+      "partial_alpha_pixels": 41278,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\frames\\04_recovery.png"
+    },
+    {
+      "status": "pass",
+      "width": 627,
+      "height": 418,
+      "bounds": [
+        108,
+        44,
+        456,
+        252
+      ],
+      "margins": {
+        "left": 108,
+        "right": 171,
+        "top": 44,
+        "bottom": 166
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.16547,
+      "partial_alpha_pixels": 42925,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\enemy-motion-gpt-board-v1\\brood_queen\\candidate-safe\\frames\\05_hit.png"
+    }
+  ]
+}

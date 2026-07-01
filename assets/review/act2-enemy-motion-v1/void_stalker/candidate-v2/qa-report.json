@@ -1,0 +1,183 @@
+{
+  "source": "assets\\review\\act2-enemy-motion-v1\\source\\void_stalker-v2.png",
+  "sheet": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\void_stalker_sheet.png",
+  "preview": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\void_stalker_preview.png",
+  "grid": {
+    "cols": 2,
+    "rows": 3,
+    "count": 6
+  },
+  "source_frame_size": {
+    "width": 627,
+    "height": 418
+  },
+  "frame_size": {
+    "width": 384,
+    "height": 480
+  },
+  "normalization": {
+    "enabled": true,
+    "content_width": 336,
+    "content_height": 432,
+    "bottom_margin": 24
+  },
+  "key_color": [
+    9,
+    230,
+    13
+  ],
+  "safe_margin": 12,
+  "status": "pass",
+  "frames": [
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        204,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 204,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.24888,
+      "partial_alpha_pixels": 34263,
+      "index": 0,
+      "name": "idle_low",
+      "file": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\frames\\00_idle_low.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        219,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 219,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.23492,
+      "partial_alpha_pixels": 32799,
+      "index": 1,
+      "name": "idle_high",
+      "file": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\frames\\01_idle_high.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        191,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 191,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.24328,
+      "partial_alpha_pixels": 33516,
+      "index": 2,
+      "name": "windup",
+      "file": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\frames\\02_windup.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        278,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 278,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.18123,
+      "partial_alpha_pixels": 25619,
+      "index": 3,
+      "name": "release",
+      "file": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\frames\\03_release.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        204,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 204,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.249,
+      "partial_alpha_pixels": 34342,
+      "index": 4,
+      "name": "recovery",
+      "file": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\frames\\04_recovery.png",
+      "flipped_horizontally": false
+    },
+    {
+      "status": "pass",
+      "width": 384,
+      "height": 480,
+      "bounds": [
+        24,
+        229,
+        360,
+        456
+      ],
+      "margins": {
+        "left": 24,
+        "right": 24,
+        "top": 229,
+        "bottom": 24
+      },
+      "unsafe_margins": [],
+      "edge_pixels": 0,
+      "visible_coverage": 0.22779,
+      "partial_alpha_pixels": 32160,
+      "index": 5,
+      "name": "hit",
+      "file": "assets\\review\\act2-enemy-motion-v1\\void_stalker\\candidate-v2\\frames\\05_hit.png",
+      "flipped_horizontally": false
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "defaultModel": "gemini-2.5-flash-image",
+  "styleRef": "assets/review/style_anchor_armor.png",
+  "note": "Strict identity/gaze/style regeneration batch for the active 20-character roster. Inputs use verified face-and-complete-hair crops. Review candidates only. pado and peanut were removed from the game on 2026-07-01.",
+  "negativePrompt": "copying the style anchor identity, copying JDD face or hair, generic invented face, identity drift, changing hair length, changing bangs, changing hair part, front-facing head, front-facing torso, camera-facing eyes, centered pupils, cross-eyed gaze, looking at viewer, clean flat cartoon, cute smooth cel-shading, simple mobile-chibi, glossy 3D, photoreal pasted face, soft under-rendered face, low detail, baseball jersey, readable letters, text, number, logo, watermark, card frame, border, UI, color fringe, extra limbs, two characters, cropped body, cropped weapon, edge contact",
+  "globalStyle": "Reference-preserving CHARACTER battle master for SLAY THE MONSTARZ. TWO images are provided. Image 1 is a FACELESS armor crop used ONLY as the rendering-style reference: dense hand-painted dark-fantasy brushwork, thick dark outlines, gritty painterly texture, dramatic high-contrast shadows, chibi combat proportions, and flat chroma green. Image 2 is a VERIFIED enlarged identity image containing the character's complete face and complete outer hairstyle and is the ONLY face-and-hair identity reference. Copy the visible face silhouette, cheek volume, jaw, eye proportions, eyebrows, nose, mouth, hair mass, hairline, fringe, side strands, part, and exact hair length from Image 2. Do not beautify, genericize, or substitute another face. Integrate the face into exactly the same dense, high-contrast painterly finish as the armor; the face must not look smoother, cleaner, more realistic, more anime-like, or more 3D than the body.",
+  "globalConstraints": "STRICT RIGHT-FACING COMBAT PROFILE. Use a true side view or strongly right-facing 3/4 view: nose, chin, chest, hips, knees, feet, and weapon all point screen RIGHT. Pupils sit at the RIGHT edge of the visible eye and focus on an off-screen enemy to the right; the far eye is barely visible. Never look at the viewer. One full-body character head-to-toe, large and centered with generous safe padding; all hair, armor, limbs, and weapon fully inside the canvas. Perfectly flat uniform solid #00ff00 background with no floor, cast shadow, gradient, texture, reflection, letters, or numbers.",
+  "assets": [
+    {
+      "id": "jdd",
+      "ref": "assets/review/identity-crops-v2/jdd-identity.png",
+      "race": "T",
+      "prompt": "Redraw JDD with identity locked exactly to Image 2. TERRAN industrial fighter: heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty mercenary combat stance, subtle navy-white abstract accents with no readable letters or numbers."
+    },
+    {
+      "id": "sun",
+      "ref": "assets/review/identity-crops-v2/sun-identity.png",
+      "race": "T",
+      "prompt": "Redraw SUN with face shape, facial features, bangs, hair mass, and exact hair length locked to Image 2. TERRAN industrial fighter: heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty combat stance, subtle navy-white abstract accents."
+    },
+    {
+      "id": "sample",
+      "ref": "assets/review/identity-crops-v2/sample-identity.png",
+      "race": "T",
+      "prompt": "Redraw SAMPLE with identity and complete hairstyle locked exactly to Image 2. TERRAN industrial fighter: heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty combat stance, subtle navy-white abstract accents."
+    },
+    {
+      "id": "ample",
+      "ref": "assets/review/identity-crops-v2/ample-identity.png",
+      "race": "T",
+      "prompt": "Redraw AMPLE from Image 2. This character previously failed because the face used a different smooth illustration style and the eyes stared at the camera. Preserve the exact face and complete hairstyle from Image 2 without changing its length, mass, fringe, or part. Paint the face with the same dense dark outlines, gritty brush texture, and dramatic shadows as the armor. Both pupils must visibly target screen RIGHT just above the gun barrel. TERRAN industrial fighter: heavy rugged riveted steel armor, exhaust vents, weathered metal, original chunky sci-fi firearm, gritty combat stance."
+    },
+    {
+      "id": "fivehundred",
+      "ref": "assets/review/identity-crops-v2/fivehundred-identity.png",
+      "race": "T",
+      "prompt": "Redraw FIVEHUNDRED with identity and complete hairstyle locked exactly to Image 2; do not substitute JDD's face. TERRAN industrial fighter: heavy rugged riveted steel plate armor, exhaust vents, worn weathered utilitarian metal, original chunky sci-fi firearm, gritty combat stance."
+    },
+    {
+      "id": "hyeonje",
+      "ref": "assets/review/identity-crops-v2/hyeonje-identity.png",
+      "race": "P",
+      "prompt": "Redraw HYEONJE with the exact face proportions, eye shape, brows, nose, mouth, bangs, and hairstyle from Image 2. The prior face looked generic and too smooth; use dense painterly facial texture and high-contrast shadows. PROTOSS energy knight: sleek elegant ceremonial obsidian-and-gold curved armor, ornate relic carving, glowing teal-cyan energy seams, floating crystalline shield shards, glowing psionic blade, slim graceful silhouette; no industrial rivets or machinery."
+    },
+    {
+      "id": "tyson",
+      "ref": "assets/review/identity-crops-v2/tyson-identity.png",
+      "race": "P",
+      "prompt": "Refine TYSON with face, hairstyle, waviness, fringe, and mouth shape copied exactly from Image 2. PROTOSS energy knight: sleek elegant ceremonial obsidian-and-gold curved armor, ornate relic carving, teal-cyan energy seams, floating crystalline shield shards, glowing psionic blade, slim graceful silhouette."
+    },
+    {
+      "id": "chu",
+      "ref": "assets/review/identity-crops-v2/chu-identity.png",
+      "race": "P",
+      "prompt": "Redraw CHU with the exact bangs, eye proportions, mouth, face silhouette, and complete hairstyle from Image 2. PROTOSS energy knight: sleek elegant obsidian-and-gold ceremonial armor, ornate relic carving, teal-cyan energy seams, floating crystalline shield shards, glowing psionic blade, slim graceful silhouette."
+    },
+    {
+      "id": "rang",
+      "ref": "assets/review/identity-crops-v2/rang-identity.png",
+      "race": "P",
+      "prompt": "Redraw RANG with the exact bangs, eye proportions, mouth, face silhouette, and complete hairstyle from Image 2. PROTOSS energy knight: sleek elegant obsidian-and-gold ceremonial armor, ornate relic carving, teal-cyan energy seams, floating crystalline shield shards, glowing psionic blade, slim graceful silhouette."
+    },
+    {
+      "id": "song",
+      "ref": "assets/review/identity-crops-v2/song-identity.png",
+      "race": "P",
+      "prompt": "Redraw SONG with hair wave pattern, hair part, exact length, eye shape, mouth, and face silhouette copied exactly from Image 2. PROTOSS energy knight: sleek elegant obsidian-and-gold ceremonial armor, ornate relic carving, teal-cyan energy seams, floating crystalline shield shards, glowing psionic blade, slim graceful silhouette."
+    },
+    {
+      "id": "soulkey",
+      "ref": "assets/review/identity-crops-v2/soulkey-identity.jpg",
+      "race": "Z",
+      "prompt": "Redraw SOULKEY as a fully human-faced bio-armored fighter. Preserve the round glasses, face proportions, eyes, brows, nose, mouth, hair part, fringe, and complete hairstyle from Image 2. The prior face was too smooth and realistic; integrate it into dense gritty hand-painted dark-fantasy texture. ZERG bio-armor: overlapping living chitin plates, bone spurs, curved ridges, asymmetric insectoid growth, sickly green-purple bioluminescence, organic bone or claw blade; no metal rivets."
+    },
+    {
+      "id": "zoe",
+      "ref": "assets/review/identity-crops-v2/zoe-identity.png",
+      "race": "Z",
+      "prompt": "Redraw ZOE with exact face silhouette, facial features, hair part, hair mass, and complete hairstyle from Image 2. The prior head turned toward the viewer and the pupils stared near camera; force a strongly right-facing head with the far eye barely visible and pupils at the right edge. Fully human face. ZERG bio-armor: living chitin plates, bone spurs, curved ridges, asymmetric insectoid growth, green-purple bioluminescence, organic claw blade."
+    },
+    {
+      "id": "bright",
+      "ref": "assets/review/identity-crops-v2/bright-identity.png",
+      "race": "Z",
+      "prompt": "Redraw BRIGHT with exact face shape, eye proportions, brows, nose, mouth, hair texture, hair part, and complete hairstyle from Image 2. Fully human face. ZERG bio-armor: living chitin plates, bone spurs, curved ridges, asymmetric insectoid growth, green-purple bioluminescence, organic claw blade."
+    },
+    {
+      "id": "jji",
+      "ref": "assets/review/identity-crops-v2/jji-identity.png",
+      "race": "Z",
+      "prompt": "Redraw JJI with exact bangs, face silhouette, facial features, hair mass, and complete hairstyle from Image 2. The prior head and pupils turned toward the viewer; force a strongly right-facing head, far eye barely visible, and pupils at the right edge. Fully human face. ZERG bio-armor: living chitin plates, bone spurs, curved ridges, asymmetric insectoid growth, green-purple bioluminescence, organic claw blade."
+    },
+    {
+      "id": "nangni",
+      "ref": "assets/review/identity-crops-v2/nangni-identity.png",
+      "race": "Z",
+      "prompt": "Redraw NANGNI with exact bangs, face shape, eye proportions, mouth, hair mass, and complete hairstyle from Image 2. Fully human face. ZERG bio-armor: living chitin plates, bone spurs, curved ridges, asymmetric insectoid growth, green-purple bioluminescence, organic claw blade."
+    }
+  ]
+}
