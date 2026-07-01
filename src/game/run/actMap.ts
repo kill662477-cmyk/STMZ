@@ -160,7 +160,7 @@ export function createInterleavedActMap(seed: number, config: InterleavedActConf
         } satisfies RunNode;
       }
 
-      const names = config.battleNames[layout.battleNameIndex ?? 0];
+      const names = config.battleNames[(layout.battleNameIndex ?? 0) % config.battleNames.length];
       if (layout.kind === "duo") {
         const [first, second] = encounterPair(encounters, layout.duoIndex ?? 0, index);
         return {
