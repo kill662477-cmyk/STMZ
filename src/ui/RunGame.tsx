@@ -1321,7 +1321,7 @@ function RewardScreen({
         <div className="reward-heading">
           <span className="run-kicker">{source.title} 돌파</span>
           <h1>한 장을 덱에 추가하세요</h1>
-          <p>이번 런 동안 선택한 카드는 다음 전투부터 손패에 등장합니다.</p>
+          <p>선택한 카드는 덱에 추가되며 다음 전투부터 사용하실 수 있습니다.</p>
           {reward.gold > 0 && <div className="reward-gold">골드 +{reward.gold} 획득</div>}
           {reward.relicId && (
             <div className={`reward-relic rarity-${RELICS[reward.relicId].rarity}`}>
