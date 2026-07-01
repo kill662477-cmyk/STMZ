@@ -758,7 +758,7 @@ interface RunViewProps {
 function getRelicIcon(id: string): React.ReactNode {
   return (
     <img
-      src={`/assets/relics/${id}.png`}
+      src={`assets/relics/${id}.png`}
       alt=""
       className="item-icon-img"
       onError={(e) => {
@@ -774,7 +774,21 @@ function getRelicIcon(id: string): React.ReactNode {
 }
 
 function getPotionIcon(id: string): React.ReactNode {
-  return <img src={`/assets/potions/${id}.png`} alt="" className="item-icon-img" />;
+  return (
+    <img
+      src={`assets/potions/${id}.png`}
+      alt=""
+      className="item-icon-img"
+      onError={(e) => {
+        const target = e.currentTarget;
+        target.style.display = "none";
+        const fallback = document.createElement("span");
+        fallback.textContent = "🧪";
+        fallback.className = "item-icon-emoji";
+        target.parentElement?.insertBefore(fallback, target);
+      }}
+    />
+  );
 }
 
 function RunHeader({ run }: { run: RunEngine }) {

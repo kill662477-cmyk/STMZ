@@ -239,7 +239,19 @@ export function BattleScreen({
               const def = RELICS[id];
               return (
                 <li key={`${id}-${idx}`} className={`relic-chip rarity-${def.rarity} stmz-tooltip-wrap`}>
-                  <img src={`/assets/relics/${id}.png`} alt="" className="item-icon-img" />
+                  <img
+                    src={`assets/relics/${id}.png`}
+                    alt=""
+                    className="item-icon-img"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.style.display = "none";
+                      const fallback = document.createElement("span");
+                      fallback.textContent = "🔮";
+                      fallback.className = "item-icon-emoji";
+                      target.parentElement?.insertBefore(fallback, target);
+                    }}
+                  />
                   <div className="stmz-tooltip bottom">
                     <strong>{def.name}</strong>
                     <p>{def.description}</p>
@@ -353,7 +365,19 @@ export function BattleScreen({
                   onClick={() => usePotion(slot)}
                   aria-label={`${def.name} 사용, ${def.description}`}
                 >
-                  <img src={`/assets/potions/${id}.png`} alt="" className="item-icon-img" />
+                  <img
+                    src={`assets/potions/${id}.png`}
+                    alt=""
+                    className="item-icon-img"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.style.display = "none";
+                      const fallback = document.createElement("span");
+                      fallback.textContent = "🧪";
+                      fallback.className = "item-icon-emoji";
+                      target.parentElement?.insertBefore(fallback, target);
+                    }}
+                  />
                   <div className="stmz-tooltip tooltip-up">
                     <strong>{def.name}</strong>
                     <p>{def.description}</p>
