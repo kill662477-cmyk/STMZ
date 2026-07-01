@@ -76,7 +76,7 @@ export const RELICS: Record<string, RelicDef> = {
     name: "플라즈마 보호막",
     rarity: "uncommon",
     description: "전투 시작 시 방어도 10",
-    flavor: "P 플라즈ma 보호막. 첫 교전을 완벽히 막아낸다.",
+    flavor: "P 플라즈마 보호막. 첫 교전을 완벽히 막아낸다.",
     effects: [{ kind: "combatBlock", amount: 10 }],
   },
   energy_cell: {
