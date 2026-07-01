@@ -191,7 +191,8 @@ const cards: Record<string, CardDef> = {
   },
   focus: {
     id: "focus", name: "집중", type: "skill", rarity: "uncommon", cost: 1,
-    description: "에너지 +2",
+    description: "에너지 +2 · 소멸",
+    exhaust: true,
     effects: [{ kind: "energy", amount: 2 }],
   },
   phase_cannon: {
@@ -212,10 +213,10 @@ const cards: Record<string, CardDef> = {
   },
   overcharge: {
     id: "overcharge", name: "과충전", type: "skill", rarity: "rare", cost: 0,
-    description: "에너지 +2 · 카드 1장 뽑기 · 소멸",
+    description: "에너지 +1 · 카드 1장 뽑기 · 소멸",
     exhaust: true,
     effects: [
-      { kind: "energy", amount: 2 },
+      { kind: "energy", amount: 1 },
       { kind: "draw", amount: 1 },
     ],
   },
@@ -1086,6 +1087,9 @@ function upgradeEffect(effect: Effect, cardId: string): Effect {
   if (effect.kind === "block") return { ...effect, amount: effect.amount + 3 };
   if (cardId === "flash_bang" && effect.kind === "applyStatus" && effect.status === "stun") {
     return effect; // 섬광탄 강화 시 기절 2턴은 너무 강력하므로 1턴으로 고정
+  }
+  if ((cardId === "mind_spike" || cardId === "overcharge") && effect.kind === "draw") {
+    return effect; // 정신 찌르기, 과충전 강화 시 드로우 수 증가는 오버 밸런스이므로 제외
   }
   return { ...effect, amount: effect.amount + 1 };
 }

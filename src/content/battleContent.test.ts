@@ -33,6 +33,8 @@ describe("battleContent cards", () => {
         if ("amount" in effect && "amount" in up) {
           if (id === "flash_bang" && "status" in effect && effect.status === "stun") {
             expect(up.amount).toBe(effect.amount);
+          } else if ((id === "mind_spike" || id === "overcharge") && effect.kind === "draw") {
+            expect(up.amount).toBe(effect.amount);
           } else {
             expect(up.amount).toBeGreaterThan(effect.amount);
           }
