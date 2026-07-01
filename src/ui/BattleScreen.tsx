@@ -9,6 +9,14 @@ import type { CardInstance, StatusMap } from "../game/engine/types";
 import { BattleStage } from "../game/pixi/BattleStage";
 
 const STATUS_LABEL: Record<string, string> = { vulnerable: "취약", weak: "약화", strength: "힘", poison: "중독", regen: "재생", stun: "기절" };
+const STATUS_DESC: Record<string, string> = {
+  vulnerable: "취약: 받는 피해가 50% 증가합니다.",
+  weak: "약화: 주는 피해가 25% 감소합니다.",
+  strength: "힘: 가하는 공격 피해가 수치만큼 증가합니다.",
+  poison: "중독: 턴 종료 시 피해를 입고, 매 턴 수치가 1씩 감소합니다.",
+  regen: "재생: 턴 시작 시 체력을 회복하고, 매 턴 수치가 1씩 감소합니다.",
+  stun: "기절: 행동 불능 상태가 되어 턴을 건너뜁니다."
+};
 type PotionFeedback = Extract<BattleEvent, { type: "potion" }> & { id: number };
 
 function potionFeedbackText(event: Extract<BattleEvent, { type: "potion" }>): string {
@@ -21,7 +29,7 @@ function statusChips(statuses: StatusMap) {
   return Object.entries(statuses)
     .filter(([, v]) => (v ?? 0) > 0)
     .map(([k, v]) => (
-      <span key={k} className={`chip ${k}`}>
+      <span key={k} className={`chip ${k}`} title={STATUS_DESC[k] ?? ""}>
         {STATUS_LABEL[k] ?? k} {v}
       </span>
     ));

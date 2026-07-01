@@ -1570,6 +1570,19 @@ function EventScreen({
             >
               <strong>{choice.label}</strong>
               <span>{choice.description}</span>
+              {choice.effects.map((eff, i) => {
+                if (eff.kind === "addCard") {
+                  const card = battleContent.cards[eff.cardId];
+                  if (card) {
+                    return (
+                      <div key={i} className="event-choice-card-preview" style={{ fontSize: "0.85em", opacity: 0.9, marginTop: "6px", color: "#c8a030", textAlign: "left" }}>
+                        ▶ 카드 효과: [{card.name}] ({card.cost}코스트) - {card.description}
+                      </div>
+                    );
+                  }
+                }
+                return null;
+              })}
             </button>
           ))}
         </div>
@@ -1873,7 +1886,12 @@ function BossRewardScreen({
                 type="button"
                 onClick={() => setCardSel(selected ? null : cardId)}
               >
-                <strong>{card.name}</strong>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", width: "100%", marginBottom: "4px" }}>
+                  <strong style={{ fontSize: "1.1em" }}>{card.name}</strong>
+                  <span style={{ background: "#c8a030", color: "#14100c", borderRadius: "4px", padding: "1px 6px", fontSize: "0.85em", fontWeight: "bold" }}>
+                    {card.cost}코스트
+                  </span>
+                </div>
                 <span className={`card-rarity-badge rarity-${card.rarity}`}>
                   {CARD_RARITY_LABEL[card.rarity] ?? card.rarity}
                 </span>
