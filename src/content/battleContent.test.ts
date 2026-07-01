@@ -15,7 +15,11 @@ describe("battleContent cards", () => {
       const upgraded = battleContent.cards[`${id}+`];
       expect(upgraded).toBeTruthy();
       expect(upgraded.effects).toHaveLength(base.effects.length);
-      expect(upgraded.cost).toBe(base.cost);
+      if (id === "flash_bang") {
+        expect(upgraded.cost).toBe(1);
+      } else {
+        expect(upgraded.cost).toBe(base.cost);
+      }
     }
   });
 
@@ -27,7 +31,11 @@ describe("battleContent cards", () => {
         const up = upgraded.effects[index];
         expect(up.kind).toBe(effect.kind);
         if ("amount" in effect && "amount" in up) {
-          expect(up.amount).toBeGreaterThan(effect.amount);
+          if (id === "flash_bang" && "status" in effect && effect.status === "stun") {
+            expect(up.amount).toBe(effect.amount);
+          } else {
+            expect(up.amount).toBeGreaterThan(effect.amount);
+          }
         }
       });
     }

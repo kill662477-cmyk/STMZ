@@ -333,7 +333,7 @@ const cards: Record<string, CardDef> = {
   },
   // 기절 (rare, 범용)
   flash_bang: {
-    id: "flash_bang", name: "섬광탄", type: "skill", rarity: "rare", cost: 1,
+    id: "flash_bang", name: "섬광탄", type: "skill", rarity: "rare", cost: 2,
     description: "적에게 기절 1 · 적에게 약화 2",
     effects: [
       { kind: "applyStatus", status: "stun", amount: 1, target: "enemy" },
@@ -1081,9 +1081,12 @@ const enemies: Record<string, EnemyDef> = {
 // 카드 강화 변형(`id+`) 자동 생성. 휴식 노드에서 강화 시 덱의 기본 카드를 +버전으로 교체한다.
 const STATUS_LABEL: Record<string, string> = { vulnerable: "취약", weak: "약화", strength: "힘", poison: "중독", regen: "재생", stun: "기절" };
 
-function upgradeEffect(effect: Effect): Effect {
+function upgradeEffect(effect: Effect, cardId: string): Effect {
   if (effect.kind === "damage") return { ...effect, amount: effect.amount + 3 };
   if (effect.kind === "block") return { ...effect, amount: effect.amount + 3 };
+  if (cardId === "flash_bang" && effect.kind === "applyStatus" && effect.status === "stun") {
+    return effect; // 섬광탄 강화 시 기절 2턴은 너무 강력하므로 1턴으로 고정
+  }
   return { ...effect, amount: effect.amount + 1 };
 }
 
@@ -1105,14 +1108,18 @@ function describeEffects(effects: Effect[]): string {
 
 for (const base of Object.values({ ...cards })) {
   const upgradedId = `${base.id}+`;
-  const upgradedEffects = base.effects.map(upgradeEffect);
+  const upgradedEffects = base.effects.map((eff) => upgradeEffect(eff, base.id));
   const description = base.exhaust
     ? `${describeEffects(upgradedEffects)} · 소멸`
     : describeEffects(upgradedEffects);
+  
+  const cost = base.id === "flash_bang" ? 1 : base.cost;
+
   cards[upgradedId] = {
     ...base,
     id: upgradedId,
     name: `${base.name}+`,
+    cost,
     description,
     effects: upgradedEffects,
   };
