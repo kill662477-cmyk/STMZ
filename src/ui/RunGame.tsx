@@ -193,13 +193,13 @@ export function RunGame() {
 
   if (showStart && selectingChar) {
     const storage = browserStorage();
-    const maxAscension = storage ? getUnlockedAscension(storage) : 1;
+    const getMaxAscension = (race: string) => storage ? getUnlockedAscension(storage, race) : 1;
     return (
       <CharacterSelect
         onSelect={startNewRun}
         onBack={() => setSelectingChar(false)}
         style={backgroundStyle}
-        maxAscension={maxAscension}
+        getMaxAscension={getMaxAscension}
       />
     );
   }
@@ -534,15 +534,21 @@ function CharacterSelect({
   onSelect,
   onBack,
   style,
-  maxAscension,
+  getMaxAscension,
 }: {
   onSelect: (characterId: string, ascension: number) => void;
   onBack: () => void;
   style: RunStyle;
-  maxAscension: number;
+  getMaxAscension: (race: string) => number;
 }) {
   const [activeTab, setActiveTab] = useState<"T" | "P" | "Z">("T");
-  const [ascension, setAscension] = useState(maxAscension);
+  const [ascension, setAscension] = useState(() => getMaxAscension("T"));
+
+  useEffect(() => {
+    setAscension(getMaxAscension(activeTab));
+  }, [activeTab, getMaxAscension]);
+
+  const maxForActive = getMaxAscension(activeTab);
   const charList = Object.values(battleContent.characters).filter((ch) => ch.race === activeTab);
   return (
     <div className="run-shell charselect-shell" style={style}>
@@ -588,12 +594,12 @@ function CharacterSelect({
               id="ascension-slider"
               type="range"
               min="1"
-              max={Math.max(1, maxAscension)}
+              max={Math.max(1, maxForActive)}
               step="1"
-              value={ascension}
+              value={Math.min(ascension, maxForActive)}
               onChange={(e) => setAscension(parseInt(e.target.value, 10))}
             />
-            <span className="ascension-value">{ascension}단계</span>
+            <span className="ascension-value">{Math.min(ascension, maxForActive)}단계</span>
           </div>
           <p className="ascension-desc">
             {ascension === 1 && "기본 난이도. 모든 적이 1마리씩 등장합니다."}
@@ -1925,10 +1931,11 @@ function RunResult({
     if (won) {
       const storage = typeof window !== "undefined" ? window.localStorage : null;
       if (storage && run.state.ascension) {
-        unlockNextAscension(storage, run.state.ascension);
+        const char = battleContent.characters[run.state.characterId];
+        unlockNextAscension(storage, run.state.ascension, char?.race);
       }
     }
-  }, [won, run.state.ascension]);
+  }, [won, run.state.ascension, run.state.characterId]);
 
   const nodesCleared = ((s.act - 1) * 10) + s.completedNodeIds.length;
   const cardsCollected = s.deck.length;

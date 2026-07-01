@@ -310,17 +310,18 @@ export function saveMeta(storage: RunStorage, state: MetaState): void {
   }
 }
 
-export function unlockNextAscension(storage: RunStorage, currentAscension: number): void {
+export function unlockNextAscension(storage: RunStorage, currentAscension: number, race: string = "global"): void {
   const meta = loadMeta(storage);
-  const currentUnlocked = meta.unlockedAscension["global"] ?? 1;
+  const currentUnlocked = meta.unlockedAscension[race] ?? meta.unlockedAscension["global"] ?? 1;
   if (currentAscension >= currentUnlocked && currentAscension < 5) {
-    meta.unlockedAscension["global"] = currentAscension + 1;
+    meta.unlockedAscension[race] = currentAscension + 1;
     saveMeta(storage, meta);
   }
 }
 
-export function getUnlockedAscension(storage: RunStorage): number {
-  return loadMeta(storage).unlockedAscension["global"] ?? 1;
+export function getUnlockedAscension(storage: RunStorage, race: string = "global"): number {
+  const meta = loadMeta(storage);
+  return meta.unlockedAscension[race] ?? meta.unlockedAscension["global"] ?? 1;
 }
 
 /** Removes the active run slot. */
@@ -423,9 +424,9 @@ export async function syncCloudData(
     } else {
       try {
         const localMeta = JSON.parse(localRaw) as MetaState;
-        const cloudMax = cloudMeta.unlockedAscension["global"] ?? 1;
-        const localMax = localMeta.unlockedAscension["global"] ?? 1;
-        if (cloudMax > localMax) {
+        const getMetaSum = (meta: MetaState) =>
+          Object.values(meta.unlockedAscension || {}).reduce((sum, val) => sum + val, 0);
+        if (getMetaSum(cloudMeta) > getMetaSum(localMeta)) {
           useCloud = true;
         }
       } catch {
