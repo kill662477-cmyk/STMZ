@@ -31,7 +31,7 @@ export const RELICS: Record<string, RelicDef> = {
   reactor_core: {
     id: "reactor_core",
     name: "반응로 핵",
-    rarity: "common",
+    rarity: "uncommon",
     description: "매 턴 에너지 +1",
     flavor: "T 반응로 핵. 전장에서 활력을 끌어올린다.",
     effects: [{ kind: "combatEnergy", amount: 1 }],

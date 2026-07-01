@@ -54,6 +54,14 @@ describe("battleContent cards", () => {
     expect(battleContent.cards.adrenaline.exhaust).toBe(true);
     expect(battleContent.cards["adrenaline+"].exhaust).toBe(true);
     expect(battleContent.cards["adrenaline+"].description).toContain("소멸");
+
+    expect(battleContent.cards.adaptive_regrowth.exhaust).toBe(true);
+    expect(battleContent.cards["adaptive_regrowth+"].exhaust).toBe(true);
+    expect(battleContent.cards["adaptive_regrowth+"].description).toContain("소멸");
+
+    expect(battleContent.cards.flash_bang.exhaust).toBe(true);
+    expect(battleContent.cards["flash_bang+"].exhaust).toBe(true);
+    expect(battleContent.cards["flash_bang+"].description).toContain("소멸");
   });
 
   it("assigns a shop rarity to every card and preserves it on upgrades", () => {

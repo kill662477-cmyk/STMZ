@@ -303,7 +303,8 @@ const cards: Record<string, CardDef> = {
   },
   adaptive_regrowth: {
     id: "adaptive_regrowth", name: "적응 재생", type: "skill", rarity: "rare", cost: 1,
-    description: "힘 +2 · 방어도 5",
+    description: "힘 +2 · 방어도 5 · 소멸",
+    exhaust: true,
     effects: [
       { kind: "applyStatus", status: "strength", amount: 2, target: "self" },
       { kind: "block", amount: 5 },
@@ -335,7 +336,8 @@ const cards: Record<string, CardDef> = {
   // 기절 (rare, 범용)
   flash_bang: {
     id: "flash_bang", name: "섬광탄", type: "skill", rarity: "rare", cost: 2,
-    description: "적에게 기절 1 · 적에게 약화 2",
+    description: "적에게 기절 1 · 적에게 약화 2 · 소멸",
+    exhaust: true,
     effects: [
       { kind: "applyStatus", status: "stun", amount: 1, target: "enemy" },
       { kind: "applyStatus", status: "weak", amount: 2, target: "enemy" },
