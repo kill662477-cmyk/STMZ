@@ -170,7 +170,8 @@ const cards: Record<string, CardDef> = {
     type: "skill",
     rarity: "uncommon",
     cost: 1,
-    description: "힘 +2",
+    description: "힘 +2 · 소멸",
+    exhaust: true,
     effects: [{ kind: "applyStatus", status: "strength", amount: 2, target: "self" }],
   },
   // ===== P (프로토스) 종족 카드 — 에너지·보호막·정밀타격 (§8: 보호·충전) =====
@@ -235,7 +236,8 @@ const cards: Record<string, CardDef> = {
   },
   resonance_field: {
     id: "resonance_field", name: "공명장", type: "skill", rarity: "rare", cost: 1,
-    description: "방어도 6 · 힘 +1 · 적에게 취약 1",
+    description: "방어도 6 · 힘 +1 · 적에게 취약 1 · 소멸",
+    exhaust: true,
     effects: [
       { kind: "block", amount: 6 },
       { kind: "applyStatus", status: "strength", amount: 1, target: "self" },

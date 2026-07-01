@@ -62,6 +62,14 @@ describe("battleContent cards", () => {
     expect(battleContent.cards.flash_bang.exhaust).toBe(true);
     expect(battleContent.cards["flash_bang+"].exhaust).toBe(true);
     expect(battleContent.cards["flash_bang+"].description).toContain("소멸");
+
+    expect(battleContent.cards.empower.exhaust).toBe(true);
+    expect(battleContent.cards["empower+"].exhaust).toBe(true);
+    expect(battleContent.cards["empower+"].description).toContain("소멸");
+
+    expect(battleContent.cards.resonance_field.exhaust).toBe(true);
+    expect(battleContent.cards["resonance_field+"].exhaust).toBe(true);
+    expect(battleContent.cards["resonance_field+"].description).toContain("소멸");
   });
 
   it("assigns a shop rarity to every card and preserves it on upgrades", () => {
