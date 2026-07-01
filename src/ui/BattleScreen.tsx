@@ -59,11 +59,13 @@ export function BattleScreen({
   const potionFeedbackTimerRef = useRef<number | null>(null);
   const [showBossWarning, setShowBossWarning] = useState(false);
   const bossIntroPlayedRef = useRef(false);
+  const [initError, setInitError] = useState<string | null>(null);
   const encounterKey = engine.state.enemies.map((enemy) => enemy.definitionId).join(",");
 
   useEffect(() => {
     setMessage("");
     setPotionFeedback(null);
+    setInitError(null);
     const defs = engine.state.enemies.map(
       (enemy) => battleContent.enemies[enemy.definitionId],
     );
@@ -81,6 +83,10 @@ export function BattleScreen({
       .then(() => {
         if (!active) stage.destroy();
         else stageRef.current = stage;
+      })
+      .catch((err) => {
+        console.error("PIXI Init Error:", err);
+        if (active) setInitError(err.message || String(err));
       });
     return () => {
       active = false;
@@ -272,8 +278,42 @@ export function BattleScreen({
         </div>
       </div>
 
-      <div className="stage-wrap">
+      <div className="stage-wrap" style={{ position: "relative" }}>
         <div className="pixi-mount" ref={mountRef} />
+        {initError && (
+          <div style={{
+            position: "absolute",
+            inset: 0,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "rgba(0,0,0,0.85)",
+            color: "#ff4d4d",
+            padding: "20px",
+            textAlign: "center",
+            zIndex: 99
+          }}>
+            <h3 style={{ margin: "0 0 10px 0", fontSize: "1.2rem" }}>전투 화면 그래픽 초기화 실패</h3>
+            <p style={{ margin: "0 0 15px 0", fontSize: "0.9rem", color: "#ccc", maxWidth: "80%", wordBreak: "break-all" }}>
+              {initError}
+            </p>
+            <button
+              onClick={() => window.location.reload()}
+              style={{
+                background: "#ff4d4d",
+                color: "#fff",
+                border: "none",
+                padding: "8px 16px",
+                borderRadius: "4px",
+                cursor: "pointer",
+                fontWeight: "bold"
+              }}
+            >
+              게임 새로고침
+            </button>
+          </div>
+        )}
         {showBossWarning && (
           <div className="boss-warning-overlay">
             <h1>WARNING</h1>
