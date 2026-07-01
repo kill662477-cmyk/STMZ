@@ -11,7 +11,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc -b --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "node tools/deploy-gh-pages.cjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.0",
