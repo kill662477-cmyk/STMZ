@@ -2426,28 +2426,105 @@ button:focus-visible {
   .battle-context span { display: none; }
   .battle-context strong { max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .stage-wrap { border-radius: 0; }
-  .enemy-hud-stack { width: 140px !important; }
-  .combatant { width: 130px !important; padding: 8px 6px !important; }
+  
+  /* Combat HUD scaling and positioning on mobile */
+  .player-hud {
+    transform: scale(0.7) !important;
+    transform-origin: left bottom !important;
+    left: 2% !important;
+    bottom: 35% !important;
+  }
+  .enemy-hud-stack {
+    transform: scale(0.7) !important;
+    transform-origin: right top !important;
+    right: 2% !important;
+    top: 4% !important;
+    width: 180px !important;
+  }
+  .combatant {
+    width: 160px !important;
+    padding: 8px 6px !important;
+  }
   .cname { font-size: 13px !important; }
   .block { font-size: 11px !important; }
   .chip { font-size: 9px !important; padding: 1px 3px !important; }
-  .stmz-root { height: 100dvh; display: flex; flex-direction: column; justify-content: space-between; }
+  
+  /* Energy Orb and Piles scaling for mobile */
+  .energy-orb {
+    width: 46px !important;
+    height: 46px !important;
+    left: 2% !important;
+    bottom: 4% !important;
+  }
+  .energy-orb span {
+    font-size: 22px !important;
+  }
+  .energy-orb small {
+    font-size: 10px !important;
+  }
+  .piles {
+    left: 18% !important;
+    bottom: 5% !important;
+    font-size: 11px !important;
+  }
+
+  /* Mobil layout flexbox stack */
+  .stmz-root {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Hand bar stacked layout for mobile (cards scroll horizontally, end turn centered above) */
   .hand-bar {
-    justify-content: flex-start;
-    min-height: 138px;
-    overflow-x: auto;
-    padding-right: 14px;
-    padding-left: 14px;
-    margin-top: auto;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    align-items: center !important;
+    width: 100% !important;
+    min-height: auto !important;
+    padding: 10px 0 !important;
+    background: rgba(12, 18, 20, 0.9) !important;
+    border-top: 1px solid rgba(235, 229, 201, 0.15) !important;
+    margin-top: auto !important;
     padding-bottom: max(20px, env(safe-area-inset-bottom)) !important;
   }
-  .hand { padding-left: 12px; }
-  .card { width: 106px; height: 152px; }
+  .hand {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 12px 16px 24px !important;
+    margin: 0 !important;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 12px;
+  }
+  .card {
+    flex-shrink: 0 !important;
+    transform: scale(0.85) !important;
+    transform-origin: bottom center !important;
+    margin: 0 -10px !important;
+    width: 106px !important;
+    height: 152px !important;
+  }
   .card-art { height: 86px; }
   .card-info { padding: 6px 8px 14px; }
   .cardname { font-size: 14px; }
   .carddesc { font-size: 10px; margin-top: 3px; }
-  .endturn { position: sticky; right: 0; min-width: 88px; background: #262c33; box-shadow: -8px 0 12px rgba(0,0,0,0.5); z-index: 10; }
+  
+  .endturn {
+    position: static !important;
+    width: 140px !important;
+    height: 38px !important;
+    margin-bottom: 8px !important;
+    border-radius: 6px !important;
+    background: #ffcc00 !important;
+    color: #111 !important;
+    font-weight: bold !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+    z-index: 10 !important;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2956,29 +3033,72 @@ button:focus-visible {
 @media (max-height: 520px) and (orientation: landscape) {
   .stage-wrap {
     width: auto !important;
-    height: 52vh !important;
+    height: 60vh !important;
     aspect-ratio: 16 / 9 !important;
     margin: 0 auto !important;
   }
+  
+  /* Anchor HUDs fixed to screen edges to free up space in landscape */
+  .player-hud {
+    position: fixed !important;
+    left: max(16px, env(safe-area-inset-left)) !important;
+    bottom: auto !important;
+    top: 35% !important;
+    transform: translateY(-50%) scale(0.8) !important;
+    transform-origin: left center !important;
+    z-index: 99 !important;
+  }
+  .enemy-hud-stack {
+    position: fixed !important;
+    right: max(16px, env(safe-area-inset-right)) !important;
+    top: 35% !important;
+    transform: translateY(-50%) scale(0.8) !important;
+    transform-origin: right center !important;
+    z-index: 99 !important;
+    width: 180px !important;
+  }
+
+  /* Reset hand bar to clean horizontal layout in landscape */
   .hand-bar {
-    height: 38vh !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-end !important;
+    height: 32vh !important;
     min-height: auto !important;
     padding: 2px 10px 6px !important;
-    gap: 8px !important;
+    margin-top: 0 !important;
+    background: transparent !important;
+    border-top: none !important;
     overflow-y: hidden !important;
     overflow-x: auto !important;
   }
+  .hand {
+    display: flex !important;
+    justify-content: center !important;
+    width: auto !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .card {
-    transform: scale(0.65) !important;
+    transform: scale(0.6) !important;
     transform-origin: bottom center !important;
     margin: 0 -22px !important;
     flex-shrink: 0 !important;
+    width: 106px !important;
+    height: 152px !important;
   }
   .endturn {
-    padding: 6px 12px !important;
-    font-size: 13px !important;
-    height: 38px !important;
+    position: static !important;
     align-self: center !important;
+    margin: 0 0 0 12px !important;
+    width: 88px !important;
+    height: 38px !important;
+    box-shadow: none !important;
+    background: #ffcc00 !important;
+    color: #111 !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
   }
   .energy-orb {
     width: 50px !important;
