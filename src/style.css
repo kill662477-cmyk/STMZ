@@ -497,9 +497,13 @@ button:focus-visible {
 .run-shell {
   --run-background: none;
   position: relative;
-  min-height: 100dvh;
+  height: 100dvh;
+  min-height: 0;
   isolation: isolate;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
   background:
     linear-gradient(90deg, rgba(7, 11, 14, 0.96) 0%, rgba(7, 11, 14, 0.78) 42%, rgba(7, 11, 14, 0.44) 100%),
     linear-gradient(0deg, rgba(5, 8, 10, 0.7), rgba(5, 8, 10, 0.18)),
