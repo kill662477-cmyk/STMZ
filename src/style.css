@@ -522,7 +522,8 @@ button:focus-visible {
 }
 
 .start-shell {
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   background:
     linear-gradient(90deg, rgba(5, 8, 10, 0.98) 0%, rgba(5, 8, 10, 0.88) 46%, rgba(5, 8, 10, 0.38) 100%),
     linear-gradient(0deg, rgba(5, 8, 10, 0.72), rgba(5, 8, 10, 0.08)),
@@ -3005,5 +3006,30 @@ button:focus-visible {
     font-size: 16px !important;
     bottom: 42% !important;
     left: 20px !important;
+  }
+  .start-layout {
+    padding: 16px 24px !important;
+    justify-content: center !important;
+    min-height: auto !important;
+  }
+  .start-copy h1 {
+    font-size: 28px !important;
+    margin-bottom: 4px !important;
+  }
+  .start-copy p {
+    font-size: 12px !important;
+    margin-bottom: 8px !important;
+  }
+  .continue-card {
+    margin-top: 8px !important;
+    padding: 8px 12px !important;
+  }
+  .start-actions {
+    margin-top: 8px !important;
+    gap: 6px !important;
+  }
+  .start-actions button {
+    padding: 8px 16px !important;
+    font-size: 13px !important;
   }
 }
