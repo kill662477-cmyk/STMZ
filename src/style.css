@@ -2426,14 +2426,20 @@ button:focus-visible {
   .battle-context span { display: none; }
   .battle-context strong { max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .stage-wrap { border-radius: 0; }
-  .combatant { width: 170px; }
-  .cname { font-size: 17px; }
+  .enemy-hud-stack { width: 140px !important; }
+  .combatant { width: 130px !important; padding: 8px 6px !important; }
+  .cname { font-size: 13px !important; }
+  .block { font-size: 11px !important; }
+  .chip { font-size: 9px !important; padding: 1px 3px !important; }
+  .stmz-root { height: 100dvh; display: flex; flex-direction: column; justify-content: space-between; }
   .hand-bar {
     justify-content: flex-start;
     min-height: 138px;
     overflow-x: auto;
     padding-right: 14px;
     padding-left: 14px;
+    margin-top: auto;
+    padding-bottom: max(20px, env(safe-area-inset-bottom)) !important;
   }
   .hand { padding-left: 12px; }
   .card { width: 106px; height: 152px; }
@@ -2944,33 +2950,7 @@ button:focus-visible {
   vertical-align: middle;
 }
 
-/* Portrait orientation warning overlay for mobile/tablets */
-@media (max-width: 1024px) and (orientation: portrait) {
-  .portrait-orientation-warning {
-    display: flex !important;
-  }
-}
 
-.portrait-orientation-warning {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: #0d0a0b;
-  color: #ebe5c9;
-  z-index: 999999;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 24px;
-  font-family: sans-serif;
-}
-
-@keyframes rotate-device {
-  0% { transform: rotate(0deg); }
-  50% { transform: rotate(-90deg); }
-  100% { transform: rotate(0deg); }
-}
 
 /* Mobile landscape orientation adjustments for small height devices */
 @media (max-height: 520px) and (orientation: landscape) {

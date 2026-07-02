@@ -96,7 +96,7 @@ function nodePosition(node: RunNode, floorCount: number) {
   };
 }
 
-function enterFullscreenAndLockLandscape() {
+function enterFullscreen() {
   const docEl = document.documentElement;
   if (docEl.requestFullscreen) {
     docEl.requestFullscreen().catch((err: any) => {
@@ -104,19 +104,6 @@ function enterFullscreenAndLockLandscape() {
     });
   } else if ((docEl as any).webkitRequestFullscreen) {
     (docEl as any).webkitRequestFullscreen();
-  }
-
-  const orient = screen.orientation as any;
-  if (orient && orient.lock) {
-    orient.lock("landscape").catch((err: any) => {
-      console.warn("Screen orientation lock failed:", err);
-    });
-  } else if ((screen as any).lockOrientation) {
-    (screen as any).lockOrientation("landscape");
-  } else if ((screen as any).mozLockOrientation) {
-    (screen as any).mozLockOrientation("landscape");
-  } else if ((screen as any).msLockOrientation) {
-    (screen as any).msLockOrientation("landscape");
   }
 }
 
@@ -188,7 +175,7 @@ export function RunGame() {
       return;
     }
 
-    enterFullscreenAndLockLandscape();
+    enterFullscreen();
 
     setRun(next);
     setBattle(null); // 전투 상태로 불러와지지 않음 (위에서 걸러짐)
@@ -207,7 +194,7 @@ export function RunGame() {
       }
     }
 
-    enterFullscreenAndLockLandscape();
+    enterFullscreen();
 
     const next = createRun(characterId, ascension);
     persistRun(next);
